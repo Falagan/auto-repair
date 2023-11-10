@@ -142,6 +142,7 @@ La aplicación se desplegará en servidores compatibles con Node.js y bases de d
 - Tamaño de página: DIN-A4
 - Márgenes (izquierdo y derecho): 3cm
 - Páginas numeradas.
+  
 ## 19. Funcionalidades Específicas
 
 ### 19.1 Gestión de Clientes
