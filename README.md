@@ -1,4 +1,4 @@
-# Análisis y Desarrollo de una Aplicación Web: Gestión Integral de Empresas de Reparación de Vehículos
+# Análisis y Desarrollo de una Aplicación Web: Gestión Integral de PYMES de Reparación de Vehículos
 
 ## 1. Introducción
 
