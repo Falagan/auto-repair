@@ -1,22 +1,289 @@
-# Análisis y Desarrollo de una Aplicación Web: Gestión Integral de PYMES de Reparación de Vehículos
+---
+marp: false
+theme: gaia
+---
 
-## 1. Introducción
+# Fálagan Software
 
-Este documento detalla el análisis y desarrollo de una aplicación web para la gestión integral de empresas dedicadas a la reparación y mantenimiento de vehículos. La aplicación se desarrollará utilizando React para el frontend y Node.js para el backend, aprovechando las ventajas de estas tecnologías para crear una solución robusta y eficiente.
+## Índice de contenidos
 
-## 2. Convenciones
+## 0. Introducción: Sobre mínimos y máximos
 
-Se seguirán las siguientes convenciones a lo largo del documento:
+## 1. Modelo de Plan de Negocio 
 
-- **Negrita:** Para resaltar puntos clave.
-- _Cursiva:_ Para enfocar en conceptos específicos.
-- `Monoespaciado:` Para destacar código o fragmentos técnicos.
+   1.1. Características generales del proyecto 
+   1.2. Presentación de los emprendedores 
+   1.3. Datos básicos del proyecto 
 
-## 3. Audiencia
+## 2. Entorno en el que se realizará la actividad de la empresa 
 
-Este documento está dirigido a desarrolladores de software, gerentes de proyecto y otros interesados en la creación de una aplicación web para la gestión de empresas de reparación de vehículos.
+   2.1. Entorno económico y sociocultural 
+   2.2. Entorno normativo 
+   2.3. Entorno tecnológico 
 
-## 4. Alcance del Producto
+## 3. Actividad de la empresa 
+
+   3.1. Definición del servicio que realizará la empresa 
+   3.2. Factores clave de éxito 
+
+## 4. El proceso de prestación del servicio 
+
+   4.1. Determinación del proceso de prestación del servicio 
+   4.2. Subcontrataciones 
+   4.3. Aprovisionamientos 
+   4.4. Procedimientos y controles de calidad 
+
+## 5. El mercado 
+
+   5.1. Definición del target de mercado y su evolución 
+   5.2. La competencia 
+   5.3. Análisis DAFO 
+
+## 6. La comercialización del servicio 
+
+   6.1. Presentación de la empresa 
+   6.2. Penetración en el mercado. Canales de distribución. Red comercial 
+      - 6.2.1. Canales de distribución. Red comercial 
+      - 6.2.2. Acciones de promoción 
+   6.3. Determinación del precio de venta 
+   6.4. Prescriptores 
+
+## 7. Localización de la empresa 
+
+   7.1. Asentamiento previsto y criterios para su selección 
+   7.2. Instalaciones y comunicaciones 
+
+## 8. Recursos humanos 
+   8.1. Organización de recursos y medios técnicos y humanos 
+   8.2. Organigrama. Estructura de dirección y gestión
+
+## 9. Aspectos formales de la empresa
+
+   9.1. Elección de la forma jurídica 
+      - 9.1.1. Criterios de elección para la forma jurídica 
+      - 9.1.2. Borrador de los Estatutos Sociales 
+   9.2. Protección jurídica 
+      - 9.2.1. Medidas de protección jurídica 
+      - 9.2.2. Patentes, marcas, licencias y permisos 
+   9.3. Medios de prevención de riesgos laborales 
+
+## 10. Innovación 
+
+   10.1. Aspectos innovadores 
+   10.2. Elementos de sostenibilidad de la innovación
+
+## 11. Planificación temporal de la puesta en marcha 
+
+## 12. Un proyecto tipo: auto-repair
+   
+   ### 12.1 Captación del Cliente:
+
+   - Identificación de potenciales clientes.
+   - Estrategias de marketing y publicidad.
+   - Presentación de servicios y propuestas.
+
+   ### 12.2 Análisis y Requerimientos:
+
+   - Reuniones con el cliente para comprender sus necesidades.
+   - Documentación de requerimientos funcionales y no funcionales.
+   - Análisis de viabilidad del proyecto.
+
+   ### 12.3 Diseño del Software:
+
+   - Creación de prototipos y wireframes.
+   - Diseño de la arquitectura del sistema.
+   - Definición de la interfaz de usuario (UI) y la experiencia del usuario (UX).
+
+   ### 12.4 Desarrollo:
+
+   - Codificación del software según los requisitos y diseño.
+   - Implementación de pruebas unitarias y de integración.
+   - Versionado y control de código fuente.
+
+   ### 12.5 Pruebas:
+
+   - Ejecución de pruebas funcionales y no funcionales.
+   - Identificación y corrección de errores.
+   - Validación con el cliente.
+
+   ### 12.6 Entrega Inicial:
+
+   - Implementación del software en el entorno de producción.
+   - Capacitación del cliente en el uso del software.
+   - Seguimiento post-implementación.
+
+   ### 12.7 Mantenimiento y Soporte:
+
+   - Monitoreo continuo del rendimiento del software.
+   - Resolución de problemas y errores.
+   - Actualizaciones de seguridad y mejoras menores.
+
+   ### 12.8 Iteraciones y Mejoras:
+
+   - Recopilación de comentarios del cliente.
+   - Identificación de oportunidades de mejora.
+   - Desarrollo e implementación de nuevas características.
+
+   ### 12.9 Documentación:
+
+   - Elaboración de manuales de usuario.
+   - Documentación técnica y de código.
+   - Actualización constante de la documentación.
+
+   ### 12.10 Evaluación del Proceso:
+
+   - Análisis de la efectividad del proceso de desarrollo.
+   - Identificación de áreas para mejorar la eficiencia.
+   - Retroalimentación con el equipo y el cliente.
+
+##
+
+
+## 13. Bibliografía y recursos.
+## 14. Fin índice contenidos.
+
+--------------------------
+
+# Desarrollo del documento
+
+## 0. Introducción
+
+En el dinámico escenario empresarial contemporáneo, la evolución constante de la tecnología desempeña un papel crucial en la viabilidad y competitividad de las organizaciones. En el caso concreto de las PYMES, a pesar de ser el motor vital de muchas economías, a menudo enfrentan desafíos significativos al intentar digitalizar y automatizar sus procesos internos. La falta de recursos y la complejidad percibida de la tecnología a veces actúan como barreras para su adopción plena. Esta problemática se convierte en un llamado a la acción, ya que la digitalización no solo es una ventaja competitiva, sino una necesidad imperante para el crecimiento sostenible y la eficiencia operativa.
+
+En este contexto, se pretende explorar un enfoque empresarial minimalista: la creación de una empresa de desarrollo de software con un solo empleado, operando desde la comodidad del hogar y orientada a proporcionar un servicio de digitalización de procesos a Pequeñas y Medianas Empresas (PYMES), ayudando a superar las limitaciones tradicionales de las empresas de este tipo, ofreciendo soluciones ágiles y personalizadas desde la  conceptualización de proyectos hasta la implementación y el soporte continuo. Nuestro objetivo es ser el socio estratégico que simplifica la complejidad tecnológica y permite a las PYMES aprovechar al máximo las oportunidades que la digitalización brinda.
+
+## 1. Modelo de Plan de Negocio 
+
+   1.1. Características generales del proyecto 
+   1.2. Presentación de los emprendedores 
+   1.3. Datos básicos del proyecto 
+
+## 2. Entorno en el que se realizará la actividad de la empresa 
+
+   2.1. Entorno económico y sociocultural 
+   2.2. Entorno normativo 
+   2.3. Entorno tecnológico 
+
+## 3. Actividad de la empresa 
+
+   3.1. Definición del servicio que realizará la empresa 
+   3.2. Factores clave de éxito 
+
+## 4. El proceso de prestación del servicio 
+
+   4.1. Determinación del proceso de prestación del servicio 
+   4.2. Subcontrataciones 
+   4.3. Aprovisionamientos 
+   4.4. Procedimientos y controles de calidad 
+
+## 5. El mercado 
+
+   5.1. Definición del target de mercado y su evolución 
+   5.2. La competencia 
+   5.3. Análisis DAFO 
+
+## 6. La comercialización del servicio 
+
+   6.1. Presentación de la empresa 
+   6.2. Penetración en el mercado. Canales de distribución. Red comercial 
+      - 6.2.1. Canales de distribución. Red comercial 
+      - 6.2.2. Acciones de promoción 
+   6.3. Determinación del precio de venta 
+   6.4. Prescriptores 
+
+## 7. Localización de la empresa 
+
+   7.1. Asentamiento previsto y criterios para su selección 
+   7.2. Instalaciones y comunicaciones 
+
+## 8. Recursos humanos 
+   8.1. Organización de recursos y medios técnicos y humanos 
+   8.2. Organigrama. Estructura de dirección y gestión
+
+## 9. Aspectos formales de la empresa
+
+   9.1. Elección de la forma jurídica 
+      - 10.1.1. Criterios de elección para la forma jurídica 
+      - 10.1.2. Borrador de los Estatutos Sociales 
+   9.2. Protección jurídica 
+      - 10.2.1. Medidas de protección jurídica 
+      - 10.2.2. Patentes, marcas, licencias y permisos 
+   9.3. Medios de prevención de riesgos laborales 
+
+## 10. Innovación 
+
+   10.1. Aspectos innovadores 
+   10.2. Elementos de sostenibilidad de la innovación
+
+## 11. Planificación temporal de la puesta en marcha 
+
+## 12. Un proyecto tipo: auto-repair
+   
+    12.1 Captación del Cliente:
+
+   - Identificación de potenciales clientes.
+   - Estrategias de marketing y publicidad.
+   - Presentación de servicios y propuestas.
+
+    12.2 Análisis y Requerimientos:
+
+   - Reuniones con el cliente para comprender sus necesidades.
+   - Documentación de requerimientos funcionales y no funcionales.
+   - Análisis de viabilidad del proyecto.
+
+    12.3 Diseño del Software:
+
+   - Creación de prototipos y wireframes.
+   - Diseño de la arquitectura del sistema.
+   - Definición de la interfaz de usuario (UI) y la experiencia del usuario (UX).
+
+    12.4 Desarrollo:
+
+   - Codificación del software según los requisitos y diseño.
+   - Implementación de pruebas unitarias y de integración.
+   - Versionado y control de código fuente.
+
+    12.5 Pruebas:
+
+   - Ejecución de pruebas funcionales y no funcionales.
+   - Identificación y corrección de errores.
+   - Validación con el cliente.
+
+    12.6 Entrega Inicial:
+
+   - Implementación del software en el entorno de producción.
+   - Capacitación del cliente en el uso del software.
+   - Seguimiento post-implementación.
+
+    12.7 Mantenimiento y Soporte:
+
+   - Monitoreo continuo del rendimiento del software.
+   - Resolución de problemas y errores.
+   - Actualizaciones de seguridad y mejoras menores.
+
+    12.8 Iteraciones y Mejoras:
+
+   - Recopilación de comentarios del cliente.
+   - Identificación de oportunidades de mejora.
+   - Desarrollo e implementación de nuevas características.
+
+    12.9 Documentación:
+
+   - Elaboración de manuales de usuario.
+   - Documentación técnica y de código.
+   - Actualización constante de la documentación.
+
+    12.10 Evaluación del Proceso:
+
+   - Análisis de la efectividad del proceso de desarrollo.
+   - Identificación de áreas para mejorar la eficiencia.
+   - Retroalimentación con el equipo y el cliente.
+
+## 13. Bibliografía y recursos.
+## 14. Fin
+
+
+<!-- ## 4. Alcance del Producto
 
 La aplicación abordará la gestión integral de empresas dedicadas a la reparación y mantenimiento de vehículos, incluyendo la gestión de clientes, inventario de repuestos, programación de citas, seguimiento de trabajos realizados y generación de informes.
 
@@ -240,4 +507,4 @@ Estas funcionalidades específicas buscan proporcionar una experiencia integral 
 
 
 
-
+ -->
