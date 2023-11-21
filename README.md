@@ -1,8 +1,3 @@
----
-marp: false
-theme: gaia
----
-
 # Fálagan Software
 
 ## Índice de contenidos
