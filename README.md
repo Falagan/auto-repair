@@ -1,143 +1,101 @@
 # Fálagan Software
 
-## Índice de contenidos
+# Índice de contenidos
 
-## 0. Introducción: Sobre mínimos y máximos
+1. [Introducción](#0-introducción-sobre-mínimos-y-máximos)
+2. [Modelo de Plan de Negocio](#1-modelo-de-plan-de-negocio)
+   1. [Características generales del proyecto](#11-características-generales-del-proyecto)
+   2. [Presentación de los emprendedores](#12-presentación-de-los-emprendedores)
+   3. [Datos básicos del proyecto](#13-datos-básicos-del-proyecto)
+3. [Entorno en el que se realizará la actividad de la empresa](#2-entorno-en-el-que-se-realizará-la-actividad-de-la-empresa)
+   1. [Entorno económico y sociocultural](#21-entorno-económico-y-sociocultural)
+   2. [Entorno normativo](#22-entorno-normativo)
+   3. [Entorno tecnológico](#23-entorno-tecnológico)
+4. [Actividad de la empresa](#3-actividad-de-la-empresa)
+   1. [Definición del servicio que realizará la empresa](#31-definición-del-servicio-que-realizará-la-empresa)
+   2. [Factores clave de éxito](#32-factores-clave-de-éxito)
+5. [El proceso de prestación del servicio](#4-el-proceso-de-prestación-del-servicio)
+   1. [Determinación del proceso de prestación del servicio](#41-determinación-del-proceso-de-prestación-del-servicio)
+   2. [Subcontrataciones](#42-subcontrataciones)
+   3. [Aprovisionamientos](#43-aprovisionamientos)
+   4. [Procedimientos y controles de calidad](#44-procedimientos-y-controles-de-calidad)
+6. [El mercado](#5-el-mercado)
+   1. [Definición del target de mercado y su evolución](#51-definición-del-target-de-mercado-y-su-evolución)
+   2. [La competencia](#52-la-competencia)
+   3. [Análisis DAFO](#53-análisis-dafo)
+7. [La comercialización del servicio](#6-la-comercialización-del-servicio)
+   1. [Presentación de la empresa](#61-presentación-de-la-empresa)
+   2. [Penetración en el mercado. Canales de distribución. Red comercial](#62-penetración-en-el-mercado-canales-de-distribución-red-comercial)
+      - [Canales de distribución. Red comercial](#621-canales-de-distribución-red-comercial)
+      - [Acciones de promoción](#622-acciones-de-promoción)
+   3. [Determinación del precio de venta](#63-determinación-del-precio-de-venta)
+   4. [Prescriptores](#64-prescriptores)
+8. [Localización de la empresa](#7-localización-de-la-empresa)
+   1. [Asentamiento previsto y criterios para su selección](#71-asentamiento-previsto-y-criterios-para-su-selección)
+   2. [Instalaciones y comunicaciones](#72-instalaciones-y-comunicaciones)
+9. [Recursos humanos](#8-recursos-humanos)
+   1. [Organización de recursos y medios técnicos y humanos](#81-organización-de-recursos-y-medios-técnicos-y-humanos)
+   2. [Organigrama. Estructura de dirección y gestión](#82-organigrama-estructura-de-dirección-y-gestión)
+10. [Aspectos formales de la empresa](#9-aspectos-formales-de-la-empresa)
+    1. [Elección de la forma jurídica](#91-elección-de-la-forma-jurídica)
+      - [Criterios de elección para la forma jurídica](#911-criterios-de-elección-para-la-forma-jurídica)
+      - [Borrador de los Estatutos Sociales](#912-borrador-de-los-estatutos-sociales)
+    2. [Protección jurídica](#92-protección-jurídica)
+      - [Medidas de protección jurídica](#921-medidas-de-protección-jurídica)
+      - [Patentes, marcas, licencias y permisos](#922-patentes-marcas-licencias-y-permisos)
+    3. [Medios de prevención de riesgos laborales](#93-medios-de-prevención-de-riesgos-laborales)
+11. [Innovación](#10-innovación)
+    1. [Aspectos innovadores](#101-aspectos-innovadores)
+    2. [Elementos de sostenibilidad de la innovación](#102-elementos-de-sostenibilidad-de-la-innovación)
+12. [Planificación temporal de la puesta en marcha](#11-planificación-temporal-de-la-puesta-en-marcha)
+13. [Un proyecto tipo: auto-repair](#12-un-proyecto-tipo-auto-repair)
+    1. [Captación del Cliente](#121-captación-del-cliente)
+      - [Identificación de potenciales clientes](#1211-identificación-de-potenciales-clientes)
+      - [Estrategias de marketing y publicidad](#1212-estrategias-de-marketing-y-publicidad)
+      - [Presentación de servicios y propuestas](#1213-presentación-de-servicios-y-propuestas)
+    2. [Análisis y Requerimientos](#122-análisis-y-requerimientos)
+      - [Reuniones con el cliente para comprender sus necesidades](#1221-reuniones-con-el-cliente-para-comprender-sus-necesidades)
+      - [Documentación de requerimientos funcionales y no funcionales](#1222-documentación-de-requerimientos-funcionales-y-no-funcionales)
+      - [Análisis de viabilidad del proyecto](#1223-análisis-de-viabilidad-del-proyecto)
+    3. [Diseño del Software](#123-diseño-del-software)
+      - [Creación de prototipos y wireframes](#1231-creación-de-prototipos-y-wireframes)
+      - [Diseño de la arquitectura del sistema](#1232-diseño-de-la-arquitectura-del-sistema)
+      - [Definición de la interfaz de usuario (UI) y la experiencia del usuario (UX)](#1233-definición-de-la-interfaz-de-usuario-ui-y-la-experiencia-del-usuario-ux)
+    4. [Desarrollo](#124-desarrollo)
+      - [Codificación del software según los requisitos y diseño](#1241-codificación-del-software-según-los-requisitos-y-diseño)
+      - [Implementación de pruebas unitarias y de integración](#1242-implementación-de-pruebas-unitarias-y-de-integración)
+      - [Versionado y control de código fuente](#1243-versionado-y-control-de-código-fuente)
+    5. [Pruebas](#125-pruebas)
+      - [Ejecución de pruebas funcionales y no funcionales](#1251-ejecución-de-pruebas-funcionales-y-no-funcionales)
+      - [Identificación y corrección de errores](#1252-identificación-y-corrección-de-errores)
+      - [Validación con el cliente](#1253-validación-con-el-cliente)
+    6. [Entrega Inicial](#126-entrega-inicial)
+      - [Implementación del software en el entorno de producción](#1261-implementación-del-software-en-el-entorno-de-producción)
+      - [Capacitación del cliente en el uso del software](#1262-capacitación-del-cliente-en-el-uso-del-software)
+      - [Seguimiento post-implementación](#1263-seguimiento-post-implementación)
+    7. [Mantenimiento y Soporte](#127-mantenimiento-y-soporte)
+      - [Monitoreo continuo del rendimiento del software](#1271-monitoreo-continuo-del-rendimiento-del-software)
+      - [Resolución de problemas y errores](#1272-resolución-de-problemas-y-errores)
+      - [Actualizaciones de seguridad y mejoras menores](#1273-actualizaciones-de-seguridad-y-mejoras-menores)
+    8. [Iteraciones y Mejoras](#128-iteraciones-y-mejoras)
+      - [Recopilación de comentarios del cliente](#1281-recopilación-de-comentarios-del-cliente)
+      - [Identificación de oportunidades de mejora](#1282-identificación-de-oportunidades-de-mejora)
+      - [Desarrollo e implementación de nuevas características](#1283-desarrollo-e-implementación-de-nuevas-características)
+    9. [Documentación](#129-documentación)
+      - [Elaboración de manuales de usuario](#1291-elaboración-de-manuales-de-usuario)
+      - [Documentación técnica y de código](#1292-documentación-técnica-y-de-código)
+      - [Actualización constante de la documentación](#1293-actualización-constante-de-la-documentación)
+    10. [Evaluación del Proceso](#1210-evaluación-del-proceso)
+      - [Análisis de la efectividad del proceso de desarrollo](#12101-análisis-de-la-efectividad-del-proceso-de-desarrollo)
+      - [Identificación de áreas para mejorar la eficiencia](#12102-identificación-de-áreas-para-mejorar-la-eficiencia)
+      - [Retroalimentación con el equipo y el cliente](#12103-retroalimentación-con-el-equipo-y-el-cliente)
+14. [Bibliografía y recursos](#13-bibliografía-y-recursos)
+15. [Fin índice contenidos](#14-fin)
 
-## 1. Modelo de Plan de Negocio 
-
-   1.1. Características generales del proyecto 
-   1.2. Presentación de los emprendedores 
-   1.3. Datos básicos del proyecto 
-
-## 2. Entorno en el que se realizará la actividad de la empresa 
-
-   2.1. Entorno económico y sociocultural 
-   2.2. Entorno normativo 
-   2.3. Entorno tecnológico 
-
-## 3. Actividad de la empresa 
-
-   3.1. Definición del servicio que realizará la empresa 
-   3.2. Factores clave de éxito 
-
-## 4. El proceso de prestación del servicio 
-
-   4.1. Determinación del proceso de prestación del servicio 
-   4.2. Subcontrataciones 
-   4.3. Aprovisionamientos 
-   4.4. Procedimientos y controles de calidad 
-
-## 5. El mercado 
-
-   5.1. Definición del target de mercado y su evolución 
-   5.2. La competencia 
-   5.3. Análisis DAFO 
-
-## 6. La comercialización del servicio 
-
-   6.1. Presentación de la empresa 
-   6.2. Penetración en el mercado. Canales de distribución. Red comercial 
-      - 6.2.1. Canales de distribución. Red comercial 
-      - 6.2.2. Acciones de promoción 
-   6.3. Determinación del precio de venta 
-   6.4. Prescriptores 
-
-## 7. Localización de la empresa 
-
-   7.1. Asentamiento previsto y criterios para su selección 
-   7.2. Instalaciones y comunicaciones 
-
-## 8. Recursos humanos 
-   8.1. Organización de recursos y medios técnicos y humanos 
-   8.2. Organigrama. Estructura de dirección y gestión
-
-## 9. Aspectos formales de la empresa
-
-   9.1. Elección de la forma jurídica 
-      - 9.1.1. Criterios de elección para la forma jurídica 
-      - 9.1.2. Borrador de los Estatutos Sociales 
-   9.2. Protección jurídica 
-      - 9.2.1. Medidas de protección jurídica 
-      - 9.2.2. Patentes, marcas, licencias y permisos 
-   9.3. Medios de prevención de riesgos laborales 
-
-## 10. Innovación 
-
-   10.1. Aspectos innovadores 
-   10.2. Elementos de sostenibilidad de la innovación
-
-## 11. Planificación temporal de la puesta en marcha 
-
-## 12. Un proyecto tipo: auto-repair
-   
-   ### 12.1 Captación del Cliente:
-
-   - Identificación de potenciales clientes.
-   - Estrategias de marketing y publicidad.
-   - Presentación de servicios y propuestas.
-
-   ### 12.2 Análisis y Requerimientos:
-
-   - Reuniones con el cliente para comprender sus necesidades.
-   - Documentación de requerimientos funcionales y no funcionales.
-   - Análisis de viabilidad del proyecto.
-
-   ### 12.3 Diseño del Software:
-
-   - Creación de prototipos y wireframes.
-   - Diseño de la arquitectura del sistema.
-   - Definición de la interfaz de usuario (UI) y la experiencia del usuario (UX).
-
-   ### 12.4 Desarrollo:
-
-   - Codificación del software según los requisitos y diseño.
-   - Implementación de pruebas unitarias y de integración.
-   - Versionado y control de código fuente.
-
-   ### 12.5 Pruebas:
-
-   - Ejecución de pruebas funcionales y no funcionales.
-   - Identificación y corrección de errores.
-   - Validación con el cliente.
-
-   ### 12.6 Entrega Inicial:
-
-   - Implementación del software en el entorno de producción.
-   - Capacitación del cliente en el uso del software.
-   - Seguimiento post-implementación.
-
-   ### 12.7 Mantenimiento y Soporte:
-
-   - Monitoreo continuo del rendimiento del software.
-   - Resolución de problemas y errores.
-   - Actualizaciones de seguridad y mejoras menores.
-
-   ### 12.8 Iteraciones y Mejoras:
-
-   - Recopilación de comentarios del cliente.
-   - Identificación de oportunidades de mejora.
-   - Desarrollo e implementación de nuevas características.
-
-   ### 12.9 Documentación:
-
-   - Elaboración de manuales de usuario.
-   - Documentación técnica y de código.
-   - Actualización constante de la documentación.
-
-   ### 12.10 Evaluación del Proceso:
-
-   - Análisis de la efectividad del proceso de desarrollo.
-   - Identificación de áreas para mejorar la eficiencia.
-   - Retroalimentación con el equipo y el cliente.
-
-##
-
-
-## 13. Bibliografía y recursos.
-## 14. Fin índice contenidos.
-
---------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 # Desarrollo del documento
 
@@ -148,131 +106,123 @@ En el dinámico escenario empresarial contemporáneo, la evolución constante de
 En este contexto, se pretende explorar un enfoque empresarial minimalista: la creación de una empresa de desarrollo de software con un solo empleado, operando desde la comodidad del hogar y orientada a proporcionar un servicio de digitalización de procesos a Pequeñas y Medianas Empresas (PYMES), ayudando a superar las limitaciones tradicionales de las empresas de este tipo, ofreciendo soluciones ágiles y personalizadas desde la  conceptualización de proyectos hasta la implementación y el soporte continuo. Nuestro objetivo es ser el socio estratégico que simplifica la complejidad tecnológica y permite a las PYMES aprovechar al máximo las oportunidades que la digitalización brinda.
 
 ## 1. Modelo de Plan de Negocio 
-
-   1.1. Características generales del proyecto 
-   1.2. Presentación de los emprendedores 
-   1.3. Datos básicos del proyecto 
+   - 1.1. Características generales del proyecto 
+   - 1.2. Presentación de los emprendedores 
+   - 1.3. Datos básicos del proyecto 
 
 ## 2. Entorno en el que se realizará la actividad de la empresa 
-
-   2.1. Entorno económico y sociocultural 
-   2.2. Entorno normativo 
-   2.3. Entorno tecnológico 
+   - 2.1. Entorno económico y sociocultural 
+   - 2.2. Entorno normativo 
+   - 2.3. Entorno tecnológico 
 
 ## 3. Actividad de la empresa 
-
-   3.1. Definición del servicio que realizará la empresa 
-   3.2. Factores clave de éxito 
+   - 3.1. Definición del servicio que realizará la empresa 
+   - 3.2. Factores clave de éxito 
 
 ## 4. El proceso de prestación del servicio 
-
-   4.1. Determinación del proceso de prestación del servicio 
-   4.2. Subcontrataciones 
-   4.3. Aprovisionamientos 
-   4.4. Procedimientos y controles de calidad 
+   - 4.1. Determinación del proceso de prestación del servicio 
+   - 4.2. Subcontrataciones 
+   - 4.3. Aprovisionamientos 
+   - 4.4. Procedimientos y controles de calidad 
 
 ## 5. El mercado 
-
-   5.1. Definición del target de mercado y su evolución 
-   5.2. La competencia 
-   5.3. Análisis DAFO 
+   - 5.1. Definición del target de mercado y su evolución 
+   - 5.2. La competencia 
+   - 5.3. Análisis DAFO 
 
 ## 6. La comercialización del servicio 
-
-   6.1. Presentación de la empresa 
-   6.2. Penetración en el mercado. Canales de distribución. Red comercial 
+   - 6.1. Presentación de la empresa 
+   - 6.2. Penetración en el mercado. Canales de distribución. Red comercial 
       - 6.2.1. Canales de distribución. Red comercial 
       - 6.2.2. Acciones de promoción 
-   6.3. Determinación del precio de venta 
-   6.4. Prescriptores 
+   - 6.3. Determinación del precio de venta 
+   - 6.4. Prescriptores 
 
 ## 7. Localización de la empresa 
-
-   7.1. Asentamiento previsto y criterios para su selección 
-   7.2. Instalaciones y comunicaciones 
+   - 7.1. Asentamiento previsto y criterios para su selección 
+   - 7.2. Instalaciones y comunicaciones 
 
 ## 8. Recursos humanos 
-   8.1. Organización de recursos y medios técnicos y humanos 
-   8.2. Organigrama. Estructura de dirección y gestión
+   - 8.1. Organización de recursos y medios técnicos y humanos 
+   - 8.2. Organigrama. Estructura de dirección y gestión
 
 ## 9. Aspectos formales de la empresa
-
-   9.1. Elección de la forma jurídica 
-      - 10.1.1. Criterios de elección para la forma jurídica 
-      - 10.1.2. Borrador de los Estatutos Sociales 
-   9.2. Protección jurídica 
-      - 10.2.1. Medidas de protección jurídica 
-      - 10.2.2. Patentes, marcas, licencias y permisos 
-   9.3. Medios de prevención de riesgos laborales 
+   - 9.1. Elección de la forma jurídica 
+      - 9.1.1. Criterios de elección para la forma jurídica 
+      - 9.1.2. Borrador de los Estatutos Sociales 
+   - 9.2. Protección jurídica 
+      - 9.2.1. Medidas de protección jurídica 
+      - 9.2.2. Patentes, marcas, licencias y permisos 
+   - 9.3. Medios de prevención de riesgos laborales 
 
 ## 10. Innovación 
+   - 10.1. Aspectos innovadores 
+   - 10.2. Elementos de sostenibilidad de la innovación
 
-   10.1. Aspectos innovadores 
-   10.2. Elementos de sostenibilidad de la innovación
 
 ## 11. Planificación temporal de la puesta en marcha 
 
 ## 12. Un proyecto tipo: auto-repair
    
-    12.1 Captación del Cliente:
+   - 12.1 Captación del Cliente:
 
-   - Identificación de potenciales clientes.
-   - Estrategias de marketing y publicidad.
-   - Presentación de servicios y propuestas.
+     - Identificación de potenciales clientes.
+     - Estrategias de marketing y publicidad.
+     - Presentación de servicios y propuestas.
 
-    12.2 Análisis y Requerimientos:
+   - 12.2 Análisis y Requerimientos:
 
-   - Reuniones con el cliente para comprender sus necesidades.
-   - Documentación de requerimientos funcionales y no funcionales.
-   - Análisis de viabilidad del proyecto.
+     - Reuniones con el cliente para comprender sus necesidades.
+     - Documentación de requerimientos funcionales y no funcionales.
+     - Análisis de viabilidad del proyecto.
 
-    12.3 Diseño del Software:
+   - 12.3 Diseño del Software:
 
-   - Creación de prototipos y wireframes.
-   - Diseño de la arquitectura del sistema.
-   - Definición de la interfaz de usuario (UI) y la experiencia del usuario (UX).
+     - Creación de prototipos y wireframes.
+     - Diseño de la arquitectura del sistema.
+     - Definición de la interfaz de usuario (UI) y la experiencia del usuario (UX).
 
-    12.4 Desarrollo:
+   - 12.4 Desarrollo:
 
-   - Codificación del software según los requisitos y diseño.
-   - Implementación de pruebas unitarias y de integración.
-   - Versionado y control de código fuente.
+     - Codificación del software según los requisitos y diseño.
+     - Implementación de pruebas unitarias y de integración.
+     - Versionado y control de código fuente.
 
-    12.5 Pruebas:
+   - 12.5 Pruebas:
 
-   - Ejecución de pruebas funcionales y no funcionales.
-   - Identificación y corrección de errores.
-   - Validación con el cliente.
+     - Ejecución de pruebas funcionales y no funcionales.
+     - Identificación y corrección de errores.
+     - Validación con el cliente.
 
-    12.6 Entrega Inicial:
+   - 12.6 Entrega Inicial:
 
-   - Implementación del software en el entorno de producción.
-   - Capacitación del cliente en el uso del software.
-   - Seguimiento post-implementación.
+     - Implementación del software en el entorno de producción.
+     - Capacitación del cliente en el uso del software.
+     - Seguimiento post-implementación.
 
-    12.7 Mantenimiento y Soporte:
+   - 12.7 Mantenimiento y Soporte:
 
-   - Monitoreo continuo del rendimiento del software.
-   - Resolución de problemas y errores.
-   - Actualizaciones de seguridad y mejoras menores.
+     - Monitoreo continuo del rendimiento del software.
+     - Resolución de problemas y errores.
+     - Actualizaciones de seguridad y mejoras menores.
 
-    12.8 Iteraciones y Mejoras:
+   - 12.8 Iteraciones y Mejoras:
 
-   - Recopilación de comentarios del cliente.
-   - Identificación de oportunidades de mejora.
-   - Desarrollo e implementación de nuevas características.
+     - Recopilación de comentarios del cliente.
+     - Identificación de oportunidades de mejora.
+     - Desarrollo e implementación de nuevas características.
 
-    12.9 Documentación:
+   - 12.9 Documentación:
 
-   - Elaboración de manuales de usuario.
-   - Documentación técnica y de código.
-   - Actualización constante de la documentación.
+     - Elaboración de manuales de usuario.
+     - Documentación técnica y de código.
+     - Actualización constante de la documentación.
 
-    12.10 Evaluación del Proceso:
+   - 12.10 Evaluación del Proceso:
 
-   - Análisis de la efectividad del proceso de desarrollo.
-   - Identificación de áreas para mejorar la eficiencia.
-   - Retroalimentación con el equipo y el cliente.
+     - Análisis de la efectividad del proceso de desarrollo.
+     - Identificación de áreas para mejorar la eficiencia.
+     - Retroalimentación con el equipo y el cliente.
 
 ## 13. Bibliografía y recursos.
 ## 14. Fin
