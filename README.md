@@ -1,4 +1,4 @@
-# Fálagan - Digitalización de procesos
+# Fálagan - Software | Digitalización de procesos
 
 # Índice de contenidos
 
@@ -391,6 +391,7 @@ desarrollo profesional continuo.
 ### 2.6.2. Estrategia de ventas
 - Ofrecer evaluaciones gratuitas de digitalización.
 - Paquetes de servicios personalizados según las necesidades del cliente.
+
 ## 2.7. Finanzas y Proyecciones
 ### 2.7.1. Inversión Inicial
 La inversión inicial se distribuirá en áreas clave para garantizar un inicio sólido y sostenible de la empresa.
