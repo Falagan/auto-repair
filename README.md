@@ -743,7 +743,9 @@ Sobre estas bases, se definen los sigueintes requisitos para nuestra app auto-re
 
 Existirán tres niveles de usuarios: `administrador`, `empleado` y `cliente`: 
 
-- El `administrador` será el encargado de gestionar los datos de los clientes y de los empleados, así como d
+- El `administrador` será el encargado de gestionar los datos de los clientes y de los empleados.
+- El `empleado` será el encargado de gestionar las citas y de registrar las reparaciones.
+- El `cliente` será el encargado de gestionar sus datos y de solicitar citas.
 
 #### 4.2.2.1 Requisitos Funcionales
 
@@ -903,15 +905,21 @@ Ejemplo de pantalla de registro:
 
 ![img_4.png](img_4.png)
 
+<div style="page-break-after: always;"></div>
+ 
 Ejemplo de tabla de usuarios:
 
 ![img_5.png](img_5.png)
+
+<div style="page-break-after: always;"></div>
 
 Ejemplo de tabla de usuarios en mobile:
 
 ![img_6.png](img_6.png)
 
 - Iteración constante en colaboración con el cliente para ajustar y mejorar el diseño según sus comentarios y necesidades.
+
+<div style="page-break-after: always;"></div>
 
 ### 4.3.2. Diseño de la Arquitectura del Sistema
 - Definición de una arquitectura de sistema tradicional con cuatro componentes esenciales: el frontend web, el backend 
