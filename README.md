@@ -124,7 +124,9 @@
 * [6. Anexos](#6-anexos)
   * [6.1. Anexo 1: Código fuente](#61-anexo-1-código-fuente)
   * [6.2. Anexo 2: Entorno productivo](#62-anexo-2-entorno-productivo)
-  
+
+<div style="page-break-after: always;"></div>
+
 # 1. Introducción
 En el dinámico escenario empresarial contemporáneo, la evolución constante de la tecnología desempeña un papel crucial
 en la viabilidad y competitividad de las organizaciones. En el caso concreto de las PYMES, a pesar de ser el motor
@@ -406,6 +408,8 @@ La estructura plana fomenta la comunicación abierta y la participación de todo
 independientemente de su posición. La dirección adopta un enfoque de liderazgo orientado a resultados y 
 desarrollo profesional continuo.
 
+<div style="page-break-after: always;"></div>
+
 ## 2.6. Estrategia de marketing y ventas
 ### 2.6.1. Estrategia de marketing
 - Enfoque en la simplicidad y eficacia de las soluciones.
@@ -446,6 +450,8 @@ de nuevas competencias.
 
 Estas proyecciones están sujetas a ajustes según la evolución del mercado y las condiciones económicas, 
 con revisiones regulares para asegurar la adaptación continua a las demandas del entorno empresarial.
+
+<div style="page-break-after: always;"></div>
 
 ## 2.8. Aspectos Formales de la Empresa
 
@@ -490,6 +496,7 @@ capital de la empresa.
 Este borrador se ajustará según la normativa legal específica y los requisitos formales al momento de la constitución 
 de la empresa.
 
+<div style="page-break-after: always;"></div>
 
 ## 2.8.2. Protección Jurídica
 ### 2.8.2.1. Medidas de Protección Jurídica
@@ -874,6 +881,8 @@ a las necesidades específicas de cada cliente.
 - Proyecto Continuo: Desarrollo de un proyecto a largo plazo con un presupuesto y plazo de entrega flexibles, con 
 iteraciones continuas y adaptación a los cambios de requisitos, próximo a metodologías ágiles.
 
+<div style="page-break-after: always;"></div>
+
 ## 4.3. Diseño del Software
 
 ### 4.3.1. Creación de Prototipos y Wireframes
@@ -898,21 +907,30 @@ y disponibilidad de los datos.
 utilizados, optimizando así el rendimiento del sistema.
 - La comunicación entre el frontend y el backend, así como entre el backend y la capa de persistencia (y la posible 
 capa de caché), se llevará a cabo a través de interfaces bien definidas y protocolos seguros.
+
+<div style="page-break-after: always;"></div>
+
 #### 4.3.2.1. Diseño backend
 
 - Entidades principales del sistema:
+
 [![](https://mermaid.ink/img/pako:eNq1VUtz0zAQ_isaneOM7Tgm1oGZQDnSSwsHCAdhy6mmluSR1wWT5r-zfiR-1O7ADFwS7bevb7Wr9YnGJhGU0TjjRXEj-dFyddCENDL5VAhLTrVMiCMTRgqwUh87IJW2gFuuxARH1zlYKC6zCZZjlh_GTiNDlaP3PlFSk2fyQeWZqYTA4_tMCg2dlTYgUxlzkEYXjNwOxK_fapvzQfe1tNHmixkZXtMtFg4yfhSAKe_KPDcW7hu5zYlqvLQnGYta355m2LSFLKdYiIGa7zLLEH6Hf33GIY9FXhxBqUFhYrTZ99IMv-FlLrOMjQb0n3IHDmWxeL8jcsuxE1HEVuY1gb-LPyjslegccMJu8PdeKnGd0Lbz7DoDlzqbbrHx-P1JmzvNv6kSwSfxIOMMCX5uDy8S1mPxyuAa4NlembIuJs0Mh_9WeUdwmYvCxTNdB5XgdqavzRpynOe37SMeQ0PCPdrz7V5a696PxlTVVfICHg7rVFlfdo1dutyAg84MJ9FxxlSnup5w08Kp-RXs7cbvaKijK6qExXWb4GZvGnCg8CBwzinDY8Lt44Ee9BnteAnmrtIxZWBLsaJlXr-M7kNAWcqzAlGRSDD2Y_epMDqVR_TNuf5ijLq4okjZif6kbLPdrQPXd7d-tA020dZf0YqyMFh7gb8L3Sj03nhRGJ5X9Ffj7653nh8FkbdxPd9H9eb8G8UmLXY?type=png)](https://mermaid.live/edit#pako:eNq1VUtz0zAQ_isaneOM7Tgm1oGZQDnSSwsHCAdhy6mmluSR1wWT5r-zfiR-1O7ADFwS7bevb7Wr9YnGJhGU0TjjRXEj-dFyddCENDL5VAhLTrVMiCMTRgqwUh87IJW2gFuuxARH1zlYKC6zCZZjlh_GTiNDlaP3PlFSk2fyQeWZqYTA4_tMCg2dlTYgUxlzkEYXjNwOxK_fapvzQfe1tNHmixkZXtMtFg4yfhSAKe_KPDcW7hu5zYlqvLQnGYta355m2LSFLKdYiIGa7zLLEH6Hf33GIY9FXhxBqUFhYrTZ99IMv-FlLrOMjQb0n3IHDmWxeL8jcsuxE1HEVuY1gb-LPyjslegccMJu8PdeKnGd0Lbz7DoDlzqbbrHx-P1JmzvNv6kSwSfxIOMMCX5uDy8S1mPxyuAa4NlembIuJs0Mh_9WeUdwmYvCxTNdB5XgdqavzRpynOe37SMeQ0PCPdrz7V5a696PxlTVVfICHg7rVFlfdo1dutyAg84MJ9FxxlSnup5w08Kp-RXs7cbvaKijK6qExXWb4GZvGnCg8CBwzinDY8Lt44Ee9BnteAnmrtIxZWBLsaJlXr-M7kNAWcqzAlGRSDD2Y_epMDqVR_TNuf5ijLq4okjZif6kbLPdrQPXd7d-tA020dZf0YqyMFh7gb8L3Sj03nhRGJ5X9Ffj7653nh8FkbdxPd9H9eb8G8UmLXY)
 
 - Diagrama base de la base de datos:
-[![](https://mermaid.ink/img/pako:eNq1VE1v2zAM_SuCzm4QL87S-OZ1K1Z0y4Ym62HwRbWZRKg-PEnu5qX-71VkN_BnAwyYLraoRz5SeuQBJzIFHGJQHynZKcJjgdAPDQodjn8I0RTdrDbo-2213VKlzYpwQPfR3dXn6K4yMzJkBU4oa5syovVvqdK21RRZy7WMxfETpZyKXiIeur5FDdQnnjFZAJwFXjEKwpyFraShW5oQQ6UYuYVECnMM1SpCG2Jy3bbl9iZvKt82yTrPMqnMhiaPYEZYUtCJopnL4yxT4oob5IosFRWGDxVfMxHTe7rqUtsB36RZg3qiCfyvYhB6gj1NGAySf6CMjTAbaQiLuMxt-ddfvkWbf67wvkpghIfbTuqovQCiBnTt-uv5-eJCHmqNh2hPdPfoJOzB01rNp7OWbGuMw4foAZgUO93XXTdUA9gUTdnLx3Yx3QlIR5CngFupmtLoHiv4lYM2VZwO6PWyTwW6J-6nsgMBitQxmph2ErHAHuag7EhK7bxzTxhjswcOMQ7tb0rUY4xjUVocyY1cFyLBoVE5eDjPjh1ST0gcbgnT1gopNVJ9rQaom6Mezoj4KSV_dbRbHB7wHxwG08lyMZ8Fgb8IguBy5uECh_5ssrRrEby35vk8CGalh_86f38ydcufvltat0u_fAGOGcTm?type=png)](https://mermaid.live/edit#pako:eNq1VE1v2zAM_SuCzm4QL87S-OZ1K1Z0y4Ym62HwRbWZRKg-PEnu5qX-71VkN_BnAwyYLraoRz5SeuQBJzIFHGJQHynZKcJjgdAPDQodjn8I0RTdrDbo-2213VKlzYpwQPfR3dXn6K4yMzJkBU4oa5syovVvqdK21RRZy7WMxfETpZyKXiIeur5FDdQnnjFZAJwFXjEKwpyFraShW5oQQ6UYuYVECnMM1SpCG2Jy3bbl9iZvKt82yTrPMqnMhiaPYEZYUtCJopnL4yxT4oob5IosFRWGDxVfMxHTe7rqUtsB36RZg3qiCfyvYhB6gj1NGAySf6CMjTAbaQiLuMxt-ddfvkWbf67wvkpghIfbTuqovQCiBnTt-uv5-eJCHmqNh2hPdPfoJOzB01rNp7OWbGuMw4foAZgUO93XXTdUA9gUTdnLx3Yx3QlIR5CngFupmtLoHiv4lYM2VZwO6PWyTwW6J-6nsgMBitQxmph2ErHAHuag7EhK7bxzTxhjswcOMQ7tb0rUY4xjUVocyY1cFyLBoVE5eDjPjh1ST0gcbgnT1gopNVJ9rQaom6Mezoj4KSV_dbRbHB7wHxwG08lyMZ8Fgb8IguBy5uECh_5ssrRrEby35vk8CGalh_86f38ydcufvltat0u_fAGOGcTm)- Ejemplo de algunos flujos de la aplicación:
+
+[![](https://mermaid.ink/img/pako:eNq1VE1v2zAM_SuCzm4QL87S-OZ1K1Z0y4Ym62HwRbWZRKg-PEnu5qX-71VkN_BnAwyYLraoRz5SeuQBJzIFHGJQHynZKcJjgdAPDQodjn8I0RTdrDbo-2213VKlzYpwQPfR3dXn6K4yMzJkBU4oa5syovVvqdK21RRZy7WMxfETpZyKXiIeur5FDdQnnjFZAJwFXjEKwpyFraShW5oQQ6UYuYVECnMM1SpCG2Jy3bbl9iZvKt82yTrPMqnMhiaPYEZYUtCJopnL4yxT4oob5IosFRWGDxVfMxHTe7rqUtsB36RZg3qiCfyvYhB6gj1NGAySf6CMjTAbaQiLuMxt-ddfvkWbf67wvkpghIfbTuqovQCiBnTt-uv5-eJCHmqNh2hPdPfoJOzB01rNp7OWbGuMw4foAZgUO93XXTdUA9gUTdnLx3Yx3QlIR5CngFupmtLoHiv4lYM2VZwO6PWyTwW6J-6nsgMBitQxmph2ErHAHuag7EhK7bxzTxhjswcOMQ7tb0rUY4xjUVocyY1cFyLBoVE5eDjPjh1ST0gcbgnT1gopNVJ9rQaom6Mezoj4KSV_dbRbHB7wHxwG08lyMZ8Fgb8IguBy5uECh_5ssrRrEby35vk8CGalh_86f38ydcufvltat0u_fAGOGcTm?type=png)](https://mermaid.live/edit#pako:eNq1VE1v2zAM_SuCzm4QL87S-OZ1K1Z0y4Ym62HwRbWZRKg-PEnu5qX-71VkN_BnAwyYLraoRz5SeuQBJzIFHGJQHynZKcJjgdAPDQodjn8I0RTdrDbo-2213VKlzYpwQPfR3dXn6K4yMzJkBU4oa5syovVvqdK21RRZy7WMxfETpZyKXiIeur5FDdQnnjFZAJwFXjEKwpyFraShW5oQQ6UYuYVECnMM1SpCG2Jy3bbl9iZvKt82yTrPMqnMhiaPYEZYUtCJopnL4yxT4oob5IosFRWGDxVfMxHTe7rqUtsB36RZg3qiCfyvYhB6gj1NGAySf6CMjTAbaQiLuMxt-ddfvkWbf67wvkpghIfbTuqovQCiBnTt-uv5-eJCHmqNh2hPdPfoJOzB01rNp7OWbGuMw4foAZgUO93XXTdUA9gUTdnLx3Yx3QlIR5CngFupmtLoHiv4lYM2VZwO6PWyTwW6J-6nsgMBitQxmph2ErHAHuag7EhK7bxzTxhjswcOMQ7tb0rUY4xjUVocyY1cFyLBoVE5eDjPjh1ST0gcbgnT1gopNVJ9rQaom6Mezoj4KSV_dbRbHB7wHxwG08lyMZ8Fgb8IguBy5uECh_5ssrRrEby35vk8CGalh_86f38ydcufvltat0u_fAGOGcTm)
 
 - Ejemplos de algunos flujos de la aplicación:
 
   - Registro de usuario:
+  
     [![](https://mermaid.ink/img/pako:eNptUbFuwjAQ_ZXTzQGR2AGSoUOhQ4cupVWlJh3c5AJWEztyHAkK_Htt00og9aZ3792dn56PWOmaMMetEf0OXu5LBTCMn5f2dSADz7SVgzXCSq28ChAXj0paKSzdiB8XNSlWum2psrAWVvySrNiQquGhE7KFlVaNNN31Ei_ehLTQaPOfmhbX77iJrm_JUlDd2TL4imEyuYPEwyRA5iELkHvIPTzdWKD6BOmVtu-loQG8C6EqaoeTP4gRduQcydoFdfTjJdoddVRi7mAtzFeJpTq7OTFavTmoCnNrRopw7GsX01oKF2iHeSPawbFUS6vN0yX58AER9kK9a939LboW8yPuMeezabZIGefxgnO-ZBEeMI_ZNHO14HNHpynn7Bzhd9iPp7NQcZwlsyxZZvPzD8fol7M?type=png)](https://mermaid.live/edit#pako:eNptUbFuwjAQ_ZXTzQGR2AGSoUOhQ4cupVWlJh3c5AJWEztyHAkK_Htt00og9aZ3792dn56PWOmaMMetEf0OXu5LBTCMn5f2dSADz7SVgzXCSq28ChAXj0paKSzdiB8XNSlWum2psrAWVvySrNiQquGhE7KFlVaNNN31Ei_ehLTQaPOfmhbX77iJrm_JUlDd2TL4imEyuYPEwyRA5iELkHvIPTzdWKD6BOmVtu-loQG8C6EqaoeTP4gRduQcydoFdfTjJdoddVRi7mAtzFeJpTq7OTFavTmoCnNrRopw7GsX01oKF2iHeSPawbFUS6vN0yX58AER9kK9a939LboW8yPuMeezabZIGefxgnO-ZBEeMI_ZNHO14HNHpynn7Bzhd9iPp7NQcZwlsyxZZvPzD8fol7M)
   
   - Prestación de servicio a un vehiculo:
+  
     [![](https://mermaid.ink/img/pako:eNp1kk2PmzAQhv_KyGc2MoSPhkOlhGSrPbSKNlUPhT24eJJYCza1TVQa8t9rIFRdrXrzvPP6mQ_7SkrFkaTkpFlzhq_bQgKY9scUrptGCWlrlBYO5Rl5Wwl5GiwA6zyrxJB4xp8tGmv-db9Mnk2-q5tKdYiwNkac5HsTSl7IN0W_4VmUFcIB9UWUOJGyfJafsURxQUc6aUQ-28y95Db_oqw4dnDv7qg07EX52jb_KbcR1TAU7LVyFDNRdvknlKiZRXiSF-X4d_zjPPWedeZN7i95DQ8PH_snKaxw93vYDOJmFKcl9JANUjZK9_YhU25TaJH3ML7BdsxOs_SwG6TdKM2N9fBYSOKRGnXNBHdPeB1MBbFnrLEgqTtypl8LUsib87HWqkMnS5Ja3aJH2oY7ylYwt4aapEdWGaciF1bpz9OfGL-GRxomvytVzxddSNIr-UVSP44Wge-HQUj9JFrSIPBIR9I4WUQxDegHulqFIU38m0d-jwC6SKKALmO6CuM4ioJkefsDlrLRsQ?type=png)](https://mermaid.live/edit#pako:eNp1kk2PmzAQhv_KyGc2MoSPhkOlhGSrPbSKNlUPhT24eJJYCza1TVQa8t9rIFRdrXrzvPP6mQ_7SkrFkaTkpFlzhq_bQgKY9scUrptGCWlrlBYO5Rl5Wwl5GiwA6zyrxJB4xp8tGmv-db9Mnk2-q5tKdYiwNkac5HsTSl7IN0W_4VmUFcIB9UWUOJGyfJafsURxQUc6aUQ-28y95Db_oqw4dnDv7qg07EX52jb_KbcR1TAU7LVyFDNRdvknlKiZRXiSF-X4d_zjPPWedeZN7i95DQ8PH_snKaxw93vYDOJmFKcl9JANUjZK9_YhU25TaJH3ML7BdsxOs_SwG6TdKM2N9fBYSOKRGnXNBHdPeB1MBbFnrLEgqTtypl8LUsib87HWqkMnS5Ja3aJH2oY7ylYwt4aapEdWGaciF1bpz9OfGL-GRxomvytVzxddSNIr-UVSP44Wge-HQUj9JFrSIPBIR9I4WUQxDegHulqFIU38m0d-jwC6SKKALmO6CuM4ioJkefsDlrLRsQ)
+
+<div style="page-break-after: always;"></div>
 
 #### 4.3.2.2. Diseño frontend
 ##### 4.3.2.2.1. Definición de la Interfaz de Usuario (UI) y la Experiencia del Usuario (UX)
