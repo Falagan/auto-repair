@@ -280,6 +280,8 @@ rápidamente a las necesidades cambiantes de los clientes, estableciendo una ven
 - **Minimización de Costos:** Al operar de manera minimalista y desde el hogar, podemos ofrecer tarifas competitivas
 sin comprometer la calidad del servicio.
 
+<div style="page-break-after: always;"></div>
+
 ### 2.3.3. Análisis DAFO
 El análisis DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) nos brinda una comprensión integral de nuestra
 posición en el mercado y nos ayuda a desarrollar estrategias efectivas.
@@ -330,6 +332,8 @@ software adaptadas a las necesidades específicas de cada cliente.
 proceso de digitalización, proporcionando recomendaciones y mejores prácticas.
 3. **Mantenimiento y Soporte Continuo:** Garantizaremos la continuidad operativa de las soluciones implementadas
 mediante servicios de mantenimiento y soporte técnico.
+
+<div style="page-break-after: always;"></div>
 
 ## 2.5. Operaciones y Estructura Organizativa
 
@@ -582,6 +586,7 @@ de formación continua.
 - **Cultura Colaborativa:** Fomentando la colaboración y el intercambio de ideas para impulsar la innovación constante 
 en el desarrollo de soluciones digitales.
 
+<div style="page-break-after: always;"></div>
 
 # 3. Planificación temporal de la puesta en marcha
 
@@ -645,6 +650,8 @@ aprovechando la experiencia en el sector de desarrollo y de la automoción de la
 
 - De estas reuniones se obtendrá la información necesaria para la elaboración de la documentación de los requisitos
 en forma de informes y actas de reunión.
+
+<div style="page-break-after: always;"></div>
 
 Ejemplo de acta de reunión:
 
@@ -1312,7 +1319,7 @@ referencia completo para el equipo de desarrollo y los usuarios.
 
 # 6. Anexos
 ## 6.1. Anexo 1: Código fuente
-- [frontend](https://github.com/Falagan/ar-app-web)
-- [backend](https://github.com/Falagan/ar-service-api)
+- [Frontend](https://github.com/Falagan/ar-app-web)
+- [Backend](https://github.com/Falagan/ar-service-api)
 ## 6.2. Anexo 2: Entorno productivo
 - [Producción](https://ar-app-web.onrender.com)
