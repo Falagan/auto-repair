@@ -1,5 +1,6 @@
 <h1 style="font-family: Arial, sans-serif;background-color: #333; color: #fff; text-align: center; padding: 1em;">
-<span style="color: #fff; text-align: center; font-size: 40px"> >_ </span>falagan | software </>
+<span style="color: #fff; text-align: center; font-size: 40px"> >_ </span>falagan | software 
+</h1>
 
 ## Índice de Contenidos
 * [1. Introducción](#1-introducción)
