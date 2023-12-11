@@ -916,9 +916,13 @@ capa de caché), se llevará a cabo a través de interfaces bien definidas y pro
 
 [![](https://mermaid.ink/img/pako:eNq1VUtz0zAQ_isaneOM7Tgm1oGZQDnSSwsHCAdhy6mmluSR1wWT5r-zfiR-1O7ADFwS7bevb7Wr9YnGJhGU0TjjRXEj-dFyddCENDL5VAhLTrVMiCMTRgqwUh87IJW2gFuuxARH1zlYKC6zCZZjlh_GTiNDlaP3PlFSk2fyQeWZqYTA4_tMCg2dlTYgUxlzkEYXjNwOxK_fapvzQfe1tNHmixkZXtMtFg4yfhSAKe_KPDcW7hu5zYlqvLQnGYta355m2LSFLKdYiIGa7zLLEH6Hf33GIY9FXhxBqUFhYrTZ99IMv-FlLrOMjQb0n3IHDmWxeL8jcsuxE1HEVuY1gb-LPyjslegccMJu8PdeKnGd0Lbz7DoDlzqbbrHx-P1JmzvNv6kSwSfxIOMMCX5uDy8S1mPxyuAa4NlembIuJs0Mh_9WeUdwmYvCxTNdB5XgdqavzRpynOe37SMeQ0PCPdrz7V5a696PxlTVVfICHg7rVFlfdo1dutyAg84MJ9FxxlSnup5w08Kp-RXs7cbvaKijK6qExXWb4GZvGnCg8CBwzinDY8Lt44Ee9BnteAnmrtIxZWBLsaJlXr-M7kNAWcqzAlGRSDD2Y_epMDqVR_TNuf5ijLq4okjZif6kbLPdrQPXd7d-tA020dZf0YqyMFh7gb8L3Sj03nhRGJ5X9Ffj7653nh8FkbdxPd9H9eb8G8UmLXY?type=png)](https://mermaid.live/edit#pako:eNq1VUtz0zAQ_isaneOM7Tgm1oGZQDnSSwsHCAdhy6mmluSR1wWT5r-zfiR-1O7ADFwS7bevb7Wr9YnGJhGU0TjjRXEj-dFyddCENDL5VAhLTrVMiCMTRgqwUh87IJW2gFuuxARH1zlYKC6zCZZjlh_GTiNDlaP3PlFSk2fyQeWZqYTA4_tMCg2dlTYgUxlzkEYXjNwOxK_fapvzQfe1tNHmixkZXtMtFg4yfhSAKe_KPDcW7hu5zYlqvLQnGYta355m2LSFLKdYiIGa7zLLEH6Hf33GIY9FXhxBqUFhYrTZ99IMv-FlLrOMjQb0n3IHDmWxeL8jcsuxE1HEVuY1gb-LPyjslegccMJu8PdeKnGd0Lbz7DoDlzqbbrHx-P1JmzvNv6kSwSfxIOMMCX5uDy8S1mPxyuAa4NlembIuJs0Mh_9WeUdwmYvCxTNdB5XgdqavzRpynOe37SMeQ0PCPdrz7V5a696PxlTVVfICHg7rVFlfdo1dutyAg84MJ9FxxlSnup5w08Kp-RXs7cbvaKijK6qExXWb4GZvGnCg8CBwzinDY8Lt44Ee9BnteAnmrtIxZWBLsaJlXr-M7kNAWcqzAlGRSDD2Y_epMDqVR_TNuf5ijLq4okjZif6kbLPdrQPXd7d-tA020dZf0YqyMFh7gb8L3Sj03nhRGJ5X9Ffj7653nh8FkbdxPd9H9eb8G8UmLXY)
 
+<div style="page-break-after: always;"></div>
+
 - Diagrama base de la base de datos:
 
 [![](https://mermaid.ink/img/pako:eNq1VE1v2zAM_SuCzm4QL87S-OZ1K1Z0y4Ym62HwRbWZRKg-PEnu5qX-71VkN_BnAwyYLraoRz5SeuQBJzIFHGJQHynZKcJjgdAPDQodjn8I0RTdrDbo-2213VKlzYpwQPfR3dXn6K4yMzJkBU4oa5syovVvqdK21RRZy7WMxfETpZyKXiIeur5FDdQnnjFZAJwFXjEKwpyFraShW5oQQ6UYuYVECnMM1SpCG2Jy3bbl9iZvKt82yTrPMqnMhiaPYEZYUtCJopnL4yxT4oob5IosFRWGDxVfMxHTe7rqUtsB36RZg3qiCfyvYhB6gj1NGAySf6CMjTAbaQiLuMxt-ddfvkWbf67wvkpghIfbTuqovQCiBnTt-uv5-eJCHmqNh2hPdPfoJOzB01rNp7OWbGuMw4foAZgUO93XXTdUA9gUTdnLx3Yx3QlIR5CngFupmtLoHiv4lYM2VZwO6PWyTwW6J-6nsgMBitQxmph2ErHAHuag7EhK7bxzTxhjswcOMQ7tb0rUY4xjUVocyY1cFyLBoVE5eDjPjh1ST0gcbgnT1gopNVJ9rQaom6Mezoj4KSV_dbRbHB7wHxwG08lyMZ8Fgb8IguBy5uECh_5ssrRrEby35vk8CGalh_86f38ydcufvltat0u_fAGOGcTm?type=png)](https://mermaid.live/edit#pako:eNq1VE1v2zAM_SuCzm4QL87S-OZ1K1Z0y4Ym62HwRbWZRKg-PEnu5qX-71VkN_BnAwyYLraoRz5SeuQBJzIFHGJQHynZKcJjgdAPDQodjn8I0RTdrDbo-2213VKlzYpwQPfR3dXn6K4yMzJkBU4oa5syovVvqdK21RRZy7WMxfETpZyKXiIeur5FDdQnnjFZAJwFXjEKwpyFraShW5oQQ6UYuYVECnMM1SpCG2Jy3bbl9iZvKt82yTrPMqnMhiaPYEZYUtCJopnL4yxT4oob5IosFRWGDxVfMxHTe7rqUtsB36RZg3qiCfyvYhB6gj1NGAySf6CMjTAbaQiLuMxt-ddfvkWbf67wvkpghIfbTuqovQCiBnTt-uv5-eJCHmqNh2hPdPfoJOzB01rNp7OWbGuMw4foAZgUO93XXTdUA9gUTdnLx3Yx3QlIR5CngFupmtLoHiv4lYM2VZwO6PWyTwW6J-6nsgMBitQxmph2ErHAHuag7EhK7bxzTxhjswcOMQ7tb0rUY4xjUVocyY1cFyLBoVE5eDjPjh1ST0gcbgnT1gopNVJ9rQaom6Mezoj4KSV_dbRbHB7wHxwG08lyMZ8Fgb8IguBy5uECh_5ssrRrEby35vk8CGalh_86f38ydcufvltat0u_fAGOGcTm)
+
+<div style="page-break-after: always;"></div>
 
 - Ejemplos de algunos flujos de la aplicación:
 
@@ -1032,6 +1036,8 @@ de desarrollo. Cada fusión en la rama principal también se etiqueta con la ver
 Estos son los conceptos básicos de Gitflow. Facilita la gestión de versiones y el trabajo colaborativo, ya que 
 proporciona una estructura clara para la integración de características y lanzamientos.
 
+<div style="page-break-after: always;"></div>
+
 Ejemlplo de flujo gitflow para el desarrollo de una nueva funcionalidad:
 
                              ┌───────────────────────┐ 1. Crear Rama de Feature
@@ -1093,6 +1099,8 @@ En el caso de las ramas `release` se desplegarán en el entorno de preproducció
 procesos de verificación que en la rama `develop`. Una vez que se compruebe que la versión es estable, se fusionará
 con la rama `main`, la cual vovlerá a pasar  por los mismos procesos de verificación y se desplegará también de forma
 automática en el entorno de producción.
+
+<div style="page-break-after: always;"></div>
 
 Ejemplo de fichero de configuración de GitHub Actions para la rama `develop`:
 
@@ -1253,6 +1261,8 @@ De nuevo sacaremos partido de Github Pages para centralizar toda la documentaci�
 Se matendrá la documentación actualizada a medida que se realizan cambios en el software, propoprionando un recurso de
 referencia completo para el equipo de desarrollo y los usuarios.
 
+<div style="page-break-after: always;"></div>
+
 # 5. Bibliografía y Recursos
 
 ## Git
@@ -1296,6 +1306,8 @@ referencia completo para el equipo de desarrollo y los usuarios.
 
 ## JavaScript
 - [Mozilla Developer Network (MDN) - JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide).
+
+<div style="page-break-after: always;"></div>
 
 # 6. Anexos
 ## 6.1. Anexo 1: Código fuente
