@@ -1087,6 +1087,8 @@ Ejemlplo de flujo gitflow para el desarrollo de una nueva funcionalidad:
                              │                       │
                              └───────────────────────┘
 
+<div style="page-break-after: always;"></div>
+
 ## 4.4.2. Ciclo de vida del desarrollo
 
 ### 4.4.2.2. Integración continua: GitHub Actions
@@ -1144,6 +1146,8 @@ de los cambios implementados y facilita la colaboración en un entorno controlad
 
 Este mimos proceso se aplicará a las ramas `release` y `main`, desplegando la aplicación en los entornos de
 preproducción y producción respectivamente.
+
+<div style="page-break-after: always;"></div>
 
 ### 4.4.2.4. Documentación global: GitHub Pages
 
