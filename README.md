@@ -605,7 +605,7 @@ en el desarrollo de soluciones digitales.
 circunstancias.*
 
 
-# 4. Proceso productivo: Auto-repair, un proyecto tipo
+# 4. Proceso productivo: auto-repair, un proyecto tipo
 
 ## 4.1. Captación del Cliente
 ### 4.1.1. Identificación de Potenciales Clientes
@@ -635,11 +635,231 @@ directa de sus necesidades.
 - Participación activa en sesiones de lluvia de ideas para captar los requisitos específicos de cada taller, 
 aprovechando la experiencia en el sector de desarrollo y de la automoción de la mano de Auto-repair.
 
+- De estas reuniones se obtendrá la información necesaria para la elaboración de la documentación de los requisitos
+en forma de informes y actas de reunión.
+
+Ejemplo de acta de reunión:
+
+    # Informe de Reuniones con Cliente - Aplicación de Gestión para Talleres Mecánicos
+
+    ## Resumen Ejecutivo
+
+    Este informe resume las discusiones y conclusiones de las primeras reuniones con el cliente, [Nombre del Cliente], 
+    con el objetivo de identificar las necesidades para el desarrollo de una aplicación de gestión destinada a talleres 
+    mecánicos de pequeño y mediano tamaño.
+    
+    ## Contexto
+    
+    El cliente expresó la necesidad de mejorar la eficiencia operativa y la administración interna de su taller mecánico. 
+    Actualmente, enfrentan desafíos en la organización de tareas, seguimiento de inventario, programación de citas y 
+    comunicación con clientes y empleados.
+    
+    ## Reunión 1 - Exploración de Requerimientos Iniciales (Fecha: DD/MM/AAAA)
+    
+    ### Participantes:
+      - Representantes del Cliente
+      - Equipo de Desarrollo
+    
+    ### Temas Discutidos:
+    
+    1. **Procesos Operativos Actuales:**
+       - Se revisaron los procesos internos del taller, desde la recepción de clientes hasta la entrega de vehículos 
+        reparados.
+       - Se identificaron áreas de mejora en la eficiencia y la comunicación interna.
+    
+       2. **Gestión de Citas:**
+       - Se discutió la necesidad de un sistema de gestión de citas eficiente para evitar conflictos y optimizar el 
+        tiempo de trabajo del personal.
+    
+       3. **Control de Inventario:**
+       - El cliente expresó preocupaciones sobre el seguimiento de piezas y repuestos, así como la necesidad de alertas
+        automáticas de reabastecimiento.
+    
+    ## Reunión 2 - Detalle de Funcionalidades (Fecha: DD/MM/AAAA)
+    
+    ### Participantes:
+    - Representantes del Cliente
+      - Equipo de Desarrollo
+    
+    ### Temas Discutidos:
+    
+    1. **Inicio de Sesión y Perfiles:**
+       - Se acordó la importancia de distintos roles (administrador, mecánico, recepcionista) con permisos específicos
+        para asegurar la seguridad y privacidad de la información.
+    
+       2. **Gestión de Clientes:**
+       - Se detallaron los datos necesarios para el registro de clientes y la importancia de mantener un historial de 
+        servicios.
+    
+       3. **Facturación y Contabilidad:**
+       - Se identificaron las funciones necesarias para crear facturas, registrar transacciones y gestionar gastos.
+    
+       4. **Comunicación Cliente-Taller:**
+       - Se discutieron herramientas de comunicación interna y externa para mantener a los clientes informados sobre 
+        el progreso de las reparaciones.
+    
+    ## Conclusiones y Próximos Pasos
+    
+    1. **Priorización de Funcionalidades:**
+       - Se establecieron prioridades para las funcionalidades identificadas, con un enfoque inicial en la gestión 
+        de citas, control de inventario y comunicación cliente-taller.
+    
+       2. **Fases del Desarrollo:**
+       - Se acordó una aproximación por fases en el desarrollo de la aplicación, comenzando con las características 
+        fundamentales y expandiéndose según las necesidades evolucionen.
+    
+       3. **Próxima Reunión:**
+       - Se programó una próxima reunión para revisar los primeros prototipos y ajustar los requisitos según el avance 
+        del desarrollo.
+    
+    Este informe servirá como guía para el equipo de desarrollo al comenzar el diseño y la implementación de la 
+    aplicación de gestión para talleres mecánicos. Se espera que esta solución mejore significativamente la eficiencia 
+    y la experiencia operativa del taller.
+
+
 ### 4.2.2. Documentación de Requerimientos Funcionales y no Funcionales
 - Detallada documentación de los requisitos funcionales y no funcionales identificados durante las reuniones con 
 el cliente. Se crearán actas de cada reunión para garantizar la correcta comprensión de los requisitos y dejar constancia
 de los mismos.
 - Utilización de un lenguaje claro y accesible para garantizar la comprensión mutua y evitar malentendidos.
+
+Sobre estas bases, se definen los sigueintes requisitos para nuestra app auto-repair:
+
+Existirán tres niveles de usuarios: `administrador`, `empleado` y `cliente`: 
+
+- El `administrador` será el encargado de gestionar los datos de los clientes y de los empleados, así como d
+
+#### 4.2.2.1 Requisitos Funcionales
+
+### Funcionalidades Generales:
+1. **Inicio de Sesión:**
+  - Los usuarios pueden iniciar sesión como administrador, empleado o cliente.
+
+2. **Panel de Control:**
+  - Resumen de actividades recientes.
+  - Acceso rápido a funciones clave.
+
+3. **Gestión de Perfiles:**
+  - Crear, editar y eliminar perfiles de empleados y clientes.
+  - Asignar roles y permisos.
+
+4. **Notificaciones:**
+  - Notificaciones en tiempo real para eventos importantes.
+
+5. **Registro de Actividades:**
+  - Registro de cambios y acciones realizadas por usuarios.
+
+### Funcionalidades para Administradores:
+1. **Gestión de Empleados:**
+  - Crear, editar y eliminar perfiles de empleados.
+  - Asignar roles y permisos específicos.
+
+2. **Inventario:**
+  - Seguimiento de existencias de piezas y repuestos.
+  - Alertas de reabastecimiento.
+
+3. **Gestión de Clientes:**
+  - Visualizar y editar información de clientes.
+  - Historial de servicios y transacciones.
+
+4. **Programación de Citas:**
+  - Crear citas para clientes.
+  - Asignar tareas a empleados.
+
+5. **Facturación y Contabilidad:**
+  - Crear y gestionar facturas.
+  - Seguimiento de transacciones y gastos.
+
+### Funcionalidades para Empleados:
+1. **Agenda de Trabajo:**
+  - Visualizar tareas asignadas y citas programadas.
+  - Confirmar la finalización de tareas.
+
+2. **Historial de Servicios:**
+  - Registrar detalles de los servicios realizados.
+  - Actualizar el estado de reparación.
+
+3. **Gestión de Inventario:**
+  - Solicitar piezas y repuestos.
+  - Marcar productos como utilizados.
+
+4. **Comunicación Interna:**
+  - Mensajería interna para colaboración entre empleados.
+
+### Funcionalidades para Clientes:
+1. **Solicitud de Citas:**
+  - Solicitar citas para servicios de reparación o mantenimiento.
+
+2. **Historial de Servicios:**
+  - Visualizar historial de servicios y reparaciones anteriores.
+
+3. **Presupuestos:**
+  - Solicitar y revisar presupuestos para servicios.
+
+4. **Comunicación con el Taller:**
+  - Mensajería para consultas y actualizaciones.
+
+5. **Pagos en Línea:**
+  - Facilitar pagos de servicios en línea.
+
+### Funcionalidades Compartidas:
+1. **Seguimiento en Tiempo Real:**
+  - Clientes y empleados pueden seguir el progreso de las reparaciones.
+
+2. **Documentación Digital:**
+  - Almacenar y compartir documentos importantes como facturas y garantías.
+
+3. **Reportes y Estadísticas:**
+  - Generar informes sobre desempeño, ingresos y tendencias.
+
+4. **Integración de Calendario:**
+  - Sincronizar citas con calendarios externos (Google Calendar, etc.).
+
+5. **Seguridad:**
+  - Seguridad robusta con autenticación de dos factores y encriptación.
+
+6. **Soporte Técnico:**
+  - Sistema de tickets para solicitar ayuda y soporte técnico.
+
+#### 4.2.2.2 Requisitos no Funcionales
+
+1. **Usabilidad:**
+  - La interfaz de usuario debe ser intuitiva y fácil de usar.
+
+2. **Rendimiento:**
+  - Respuesta rápida a las solicitudes de los usuarios.
+  - Capacidad para manejar múltiples usuarios concurrentes.
+
+3. **Seguridad:**
+  - Autenticación segura.
+  - Encriptación de datos sensibles.
+
+4. **Disponibilidad:**
+  - La aplicación debe estar disponible el mayor tiempo posible.
+
+5. **Escalabilidad:**
+  - Capacidad para crecer y adaptarse a un aumento en el volumen de datos o usuarios.
+
+6. **Mantenibilidad:**
+  - Facilidad para realizar actualizaciones y correcciones.
+  - Documentación clara y completa.
+
+7. **Compatibilidad:**
+  - Compatibilidad con diferentes navegadores web.
+  - Interoperabilidad con sistemas externos si es necesario.
+
+8. **Cumplimiento Normativo:**
+  - Cumplimiento con regulaciones y normativas de seguridad y privacidad.
+
+9. **Desempeño:**
+  - Tiempo de carga rápido para evitar la frustración de los usuarios.
+
+10. **Backup y Recuperación:**
+  - Sistemas de respaldo regulares y capacidad de recuperación de datos en caso de fallos.
+
+Estos requisitos funcionales y no funcionales ayudarán a guiar el desarrollo de la aplicación web para garantizar que 
+cumpla con las expectativas y necesidades de los usuarios y de la empresa.
+
 
 ### 4.2.3. Análisis de Viabilidad del Proyecto
 - Evaluación cuidadosa de la viabilidad técnica y financiera del proyecto en colaboración estrecha con el cliente.
@@ -676,9 +896,24 @@ y disponibilidad de los datos.
 utilizados, optimizando así el rendimiento del sistema.
 - La comunicación entre el frontend y el backend, así como entre el backend y la capa de persistencia (y la posible 
 capa de caché), se llevará a cabo a través de interfaces bien definidas y protocolos seguros.
+#### 4.3.2.1. Diseño backend
 
+- Entidades principales del sistema:
+[![](https://mermaid.ink/img/pako:eNq1VUtz0zAQ_isaneOM7Tgm1oGZQDnSSwsHCAdhy6mmluSR1wWT5r-zfiR-1O7ADFwS7bevb7Wr9YnGJhGU0TjjRXEj-dFyddCENDL5VAhLTrVMiCMTRgqwUh87IJW2gFuuxARH1zlYKC6zCZZjlh_GTiNDlaP3PlFSk2fyQeWZqYTA4_tMCg2dlTYgUxlzkEYXjNwOxK_fapvzQfe1tNHmixkZXtMtFg4yfhSAKe_KPDcW7hu5zYlqvLQnGYta355m2LSFLKdYiIGa7zLLEH6Hf33GIY9FXhxBqUFhYrTZ99IMv-FlLrOMjQb0n3IHDmWxeL8jcsuxE1HEVuY1gb-LPyjslegccMJu8PdeKnGd0Lbz7DoDlzqbbrHx-P1JmzvNv6kSwSfxIOMMCX5uDy8S1mPxyuAa4NlembIuJs0Mh_9WeUdwmYvCxTNdB5XgdqavzRpynOe37SMeQ0PCPdrz7V5a696PxlTVVfICHg7rVFlfdo1dutyAg84MJ9FxxlSnup5w08Kp-RXs7cbvaKijK6qExXWb4GZvGnCg8CBwzinDY8Lt44Ee9BnteAnmrtIxZWBLsaJlXr-M7kNAWcqzAlGRSDD2Y_epMDqVR_TNuf5ijLq4okjZif6kbLPdrQPXd7d-tA020dZf0YqyMFh7gb8L3Sj03nhRGJ5X9Ffj7653nh8FkbdxPd9H9eb8G8UmLXY?type=png)](https://mermaid.live/edit#pako:eNq1VUtz0zAQ_isaneOM7Tgm1oGZQDnSSwsHCAdhy6mmluSR1wWT5r-zfiR-1O7ADFwS7bevb7Wr9YnGJhGU0TjjRXEj-dFyddCENDL5VAhLTrVMiCMTRgqwUh87IJW2gFuuxARH1zlYKC6zCZZjlh_GTiNDlaP3PlFSk2fyQeWZqYTA4_tMCg2dlTYgUxlzkEYXjNwOxK_fapvzQfe1tNHmixkZXtMtFg4yfhSAKe_KPDcW7hu5zYlqvLQnGYta355m2LSFLKdYiIGa7zLLEH6Hf33GIY9FXhxBqUFhYrTZ99IMv-FlLrOMjQb0n3IHDmWxeL8jcsuxE1HEVuY1gb-LPyjslegccMJu8PdeKnGd0Lbz7DoDlzqbbrHx-P1JmzvNv6kSwSfxIOMMCX5uDy8S1mPxyuAa4NlembIuJs0Mh_9WeUdwmYvCxTNdB5XgdqavzRpynOe37SMeQ0PCPdrz7V5a696PxlTVVfICHg7rVFlfdo1dutyAg84MJ9FxxlSnup5w08Kp-RXs7cbvaKijK6qExXWb4GZvGnCg8CBwzinDY8Lt44Ee9BnteAnmrtIxZWBLsaJlXr-M7kNAWcqzAlGRSDD2Y_epMDqVR_TNuf5ijLq4okjZif6kbLPdrQPXd7d-tA020dZf0YqyMFh7gb8L3Sj03nhRGJ5X9Ffj7653nh8FkbdxPd9H9eb8G8UmLXY)
 
-### 4.3.3. Definición de la Interfaz de Usuario (UI) y la Experiencia del Usuario (UX)
+- Diagrama base de la base de datos:
+[![](https://mermaid.ink/img/pako:eNq1VE1v2zAM_SuCzm4QL87S-OZ1K1Z0y4Ym62HwRbWZRKg-PEnu5qX-71VkN_BnAwyYLraoRz5SeuQBJzIFHGJQHynZKcJjgdAPDQodjn8I0RTdrDbo-2213VKlzYpwQPfR3dXn6K4yMzJkBU4oa5syovVvqdK21RRZy7WMxfETpZyKXiIeur5FDdQnnjFZAJwFXjEKwpyFraShW5oQQ6UYuYVECnMM1SpCG2Jy3bbl9iZvKt82yTrPMqnMhiaPYEZYUtCJopnL4yxT4oob5IosFRWGDxVfMxHTe7rqUtsB36RZg3qiCfyvYhB6gj1NGAySf6CMjTAbaQiLuMxt-ddfvkWbf67wvkpghIfbTuqovQCiBnTt-uv5-eJCHmqNh2hPdPfoJOzB01rNp7OWbGuMw4foAZgUO93XXTdUA9gUTdnLx3Yx3QlIR5CngFupmtLoHiv4lYM2VZwO6PWyTwW6J-6nsgMBitQxmph2ErHAHuag7EhK7bxzTxhjswcOMQ7tb0rUY4xjUVocyY1cFyLBoVE5eDjPjh1ST0gcbgnT1gopNVJ9rQaom6Mezoj4KSV_dbRbHB7wHxwG08lyMZ8Fgb8IguBy5uECh_5ssrRrEby35vk8CGalh_86f38ydcufvltat0u_fAGOGcTm?type=png)](https://mermaid.live/edit#pako:eNq1VE1v2zAM_SuCzm4QL87S-OZ1K1Z0y4Ym62HwRbWZRKg-PEnu5qX-71VkN_BnAwyYLraoRz5SeuQBJzIFHGJQHynZKcJjgdAPDQodjn8I0RTdrDbo-2213VKlzYpwQPfR3dXn6K4yMzJkBU4oa5syovVvqdK21RRZy7WMxfETpZyKXiIeur5FDdQnnjFZAJwFXjEKwpyFraShW5oQQ6UYuYVECnMM1SpCG2Jy3bbl9iZvKt82yTrPMqnMhiaPYEZYUtCJopnL4yxT4oob5IosFRWGDxVfMxHTe7rqUtsB36RZg3qiCfyvYhB6gj1NGAySf6CMjTAbaQiLuMxt-ddfvkWbf67wvkpghIfbTuqovQCiBnTt-uv5-eJCHmqNh2hPdPfoJOzB01rNp7OWbGuMw4foAZgUO93XXTdUA9gUTdnLx3Yx3QlIR5CngFupmtLoHiv4lYM2VZwO6PWyTwW6J-6nsgMBitQxmph2ErHAHuag7EhK7bxzTxhjswcOMQ7tb0rUY4xjUVocyY1cFyLBoVE5eDjPjh1ST0gcbgnT1gopNVJ9rQaom6Mezoj4KSV_dbRbHB7wHxwG08lyMZ8Fgb8IguBy5uECh_5ssrRrEby35vk8CGalh_86f38ydcufvltat0u_fAGOGcTm)- Ejemplo de algunos flujos de la aplicación:
+
+- Ejemplos de algunos flujos de la aplicación:
+
+  - Registro de usuario:
+    [![](https://mermaid.ink/img/pako:eNptUbFuwjAQ_ZXTzQGR2AGSoUOhQ4cupVWlJh3c5AJWEztyHAkK_Htt00og9aZ3792dn56PWOmaMMetEf0OXu5LBTCMn5f2dSADz7SVgzXCSq28ChAXj0paKSzdiB8XNSlWum2psrAWVvySrNiQquGhE7KFlVaNNN31Ei_ehLTQaPOfmhbX77iJrm_JUlDd2TL4imEyuYPEwyRA5iELkHvIPTzdWKD6BOmVtu-loQG8C6EqaoeTP4gRduQcydoFdfTjJdoddVRi7mAtzFeJpTq7OTFavTmoCnNrRopw7GsX01oKF2iHeSPawbFUS6vN0yX58AER9kK9a939LboW8yPuMeezabZIGefxgnO-ZBEeMI_ZNHO14HNHpynn7Bzhd9iPp7NQcZwlsyxZZvPzD8fol7M?type=png)](https://mermaid.live/edit#pako:eNptUbFuwjAQ_ZXTzQGR2AGSoUOhQ4cupVWlJh3c5AJWEztyHAkK_Htt00og9aZ3792dn56PWOmaMMetEf0OXu5LBTCMn5f2dSADz7SVgzXCSq28ChAXj0paKSzdiB8XNSlWum2psrAWVvySrNiQquGhE7KFlVaNNN31Ei_ehLTQaPOfmhbX77iJrm_JUlDd2TL4imEyuYPEwyRA5iELkHvIPTzdWKD6BOmVtu-loQG8C6EqaoeTP4gRduQcydoFdfTjJdoddVRi7mAtzFeJpTq7OTFavTmoCnNrRopw7GsX01oKF2iHeSPawbFUS6vN0yX58AER9kK9a939LboW8yPuMeezabZIGefxgnO-ZBEeMI_ZNHO14HNHpynn7Bzhd9iPp7NQcZwlsyxZZvPzD8fol7M)
+  
+  - Prestación de servicio a un vehiculo:
+    [![](https://mermaid.ink/img/pako:eNp1kk2PmzAQhv_KyGc2MoSPhkOlhGSrPbSKNlUPhT24eJJYCza1TVQa8t9rIFRdrXrzvPP6mQ_7SkrFkaTkpFlzhq_bQgKY9scUrptGCWlrlBYO5Rl5Wwl5GiwA6zyrxJB4xp8tGmv-db9Mnk2-q5tKdYiwNkac5HsTSl7IN0W_4VmUFcIB9UWUOJGyfJafsURxQUc6aUQ-28y95Db_oqw4dnDv7qg07EX52jb_KbcR1TAU7LVyFDNRdvknlKiZRXiSF-X4d_zjPPWedeZN7i95DQ8PH_snKaxw93vYDOJmFKcl9JANUjZK9_YhU25TaJH3ML7BdsxOs_SwG6TdKM2N9fBYSOKRGnXNBHdPeB1MBbFnrLEgqTtypl8LUsib87HWqkMnS5Ja3aJH2oY7ylYwt4aapEdWGaciF1bpz9OfGL-GRxomvytVzxddSNIr-UVSP44Wge-HQUj9JFrSIPBIR9I4WUQxDegHulqFIU38m0d-jwC6SKKALmO6CuM4ioJkefsDlrLRsQ?type=png)](https://mermaid.live/edit#pako:eNp1kk2PmzAQhv_KyGc2MoSPhkOlhGSrPbSKNlUPhT24eJJYCza1TVQa8t9rIFRdrXrzvPP6mQ_7SkrFkaTkpFlzhq_bQgKY9scUrptGCWlrlBYO5Rl5Wwl5GiwA6zyrxJB4xp8tGmv-db9Mnk2-q5tKdYiwNkac5HsTSl7IN0W_4VmUFcIB9UWUOJGyfJafsURxQUc6aUQ-28y95Db_oqw4dnDv7qg07EX52jb_KbcR1TAU7LVyFDNRdvknlKiZRXiSF-X4d_zjPPWedeZN7i95DQ8PH_snKaxw93vYDOJmFKcl9JANUjZK9_YhU25TaJH3ML7BdsxOs_SwG6TdKM2N9fBYSOKRGnXNBHdPeB1MBbFnrLEgqTtypl8LUsib87HWqkMnS5Ja3aJH2oY7ylYwt4aapEdWGaciF1bpz9OfGL-GRxomvytVzxddSNIr-UVSP44Wge-HQUj9JFrSIPBIR9I4WUQxDegHulqFIU38m0d-jwC6SKKALmO6CuM4ioJkefsDlrLRsQ)
+
+#### 4.3.2.2. Diseño frontend
+##### 4.3.2.2.1. Definición de la Interfaz de Usuario (UI) y la Experiencia del Usuario (UX)
 - Diseño de una interfaz de usuario (UI) basada en componentes tipo tabla, formularios y dashboards, permitiendo una 
 experiencia visual clara y eficiente para los usuarios de Auto-repair.
 - Implementación de visualizaciones personalizadas por usuario, adaptadas a sus roles y responsabilidades en el taller
