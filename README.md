@@ -894,6 +894,23 @@ iteraciones continuas y adaptación a los cambios de requisitos, próximo a meto
 
 ### 4.3.1. Creación de Prototipos y Wireframes
 - Desarrollo de prototipos visuales y wireframes interactivos que representen la estructura y flujo de Auto-repair.
+
+Ejemplo de pantalla de login:
+
+![img_3.png](img_3.png)
+
+Ejemplo de pantalla de registro:
+
+![img_4.png](img_4.png)
+
+Ejemplo de tabla de usuarios:
+
+![img_5.png](img_5.png)
+
+Ejemplo de tabla de usuarios en mobile:
+
+![img_6.png](img_6.png)
+
 - Iteración constante en colaboración con el cliente para ajustar y mejorar el diseño según sus comentarios y necesidades.
 
 ### 4.3.2. Diseño de la Arquitectura del Sistema
