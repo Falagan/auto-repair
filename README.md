@@ -1,4 +1,5 @@
-# Fálagan - Software | Digitalización de procesos
+
+![img_1.png](img_1.png)
 ## Índice de Contenidos
 * [1. Introducción](#1-introducción)
 * [2. Modelo de Plan de Negocio](#2-modelo-de-plan-de-negocio)
