@@ -1,5 +1,6 @@
+<h1 style="font-family: Arial, sans-serif;background-color: #333; color: #fff; text-align: center; padding: 1em;">
+<span style="color: #fff; text-align: center; font-size: 40px"> >_ </span>falagan | software </>
 
-![img_1.png](img_1.png)
 ## Índice de Contenidos
 * [1. Introducción](#1-introducción)
 * [2. Modelo de Plan de Negocio](#2-modelo-de-plan-de-negocio)
