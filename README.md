@@ -425,62 +425,604 @@ de nuevas competencias.
 Estas proyecciones están sujetas a ajustes según la evolución del mercado y las condiciones económicas, 
 con revisiones regulares para asegurar la adaptación continua a las demandas del entorno empresarial.
 
-## 2.8. Aspectos formales de la empresa
-### 2.8.1. Elección de la forma jurídica
-#### 2.8.1.1. Criterios de elección para la forma jurídica
-#### 2.8.1.2. Borrador de los Estatutos Sociales
-### 2.8.2. Protección jurídica
-#### 2.8.2.1. Medidas de protección jurídica
-#### 2.8.2.2. Patentes, marcas, licencias y permisos
-### 2.8.3. Medios de prevención de riesgos laborales
+## 2.8. Aspectos Formales de la Empresa
+
+### 2.8.1. Elección de la Forma Jurídica
+
+La empresa optará por la forma jurídica de **Empresa Individual**, dada su naturaleza minimalista y su estructura de 
+operación desde el hogar. Esta elección se fundamenta en la responsabilidad limitada del titular y la flexibilidad 
+en la toma de decisiones sin la obligación de un capital inicial significativo.
+
+### 2.8.1.1. Criterios de Elección para la Forma Jurídica
+
+La decisión de elegir una Empresa Individual se basa en los siguientes criterios:
+
+- **Responsabilidad Limitada:** La forma jurídica de Empresa Individual ofrece al titular una responsabilidad limitada, 
+lo que significa que sus activos personales están separados de los activos de la empresa.
+
+- **Flexibilidad Operativa:** Al no requerir un capital inicial importante y permitir una toma de decisiones ágil, 
+la Empresa Individual se adapta de manera óptima a la naturaleza minimalista y remota del negocio.
+
+- **Sencillez Administrativa:** La carga administrativa y los requisitos legales son menos exigentes en comparación
+con otras formas jurídicas, lo que facilita la gestión eficiente de la empresa.
+
+### 2.8.1.2. Borrador de los Estatutos Sociales
+
+A continuación, se presenta un resumen del borrador de los Estatutos Sociales de la Empresa Individual:
+
+- **Denominación Social:** [Nombre del titular] Desarrollo de Software.
+
+- **Domicilio Social:** [Dirección del domicilio del titular].
+
+- **Objeto Social:** Desarrollo de software, consultoría en digitalización y servicios relacionados con la tecnología.
+
+- **Duración:** Indefinida, sujeta a la normativa vigente.
+
+- **Capital Social:** No aplica, dado que la Empresa Individual no requiere un capital social mínimo.
+
+- **Órganos de Administración:** El titular será el único responsable de la administración y toma de decisiones.
+
+- **Responsabilidad Limitada:** El titular no responde con sus bienes personales, limitando su responsabilidad al 
+capital de la empresa.
+
+Este borrador se ajustará según la normativa legal específica y los requisitos formales al momento de la constitución 
+de la empresa.
+
+
+## 2.8.2. Protección Jurídica
+### 2.8.2.1. Medidas de Protección Jurídica
+
+Dada la importancia de asegurar la protección legal de la empresa, se implementarán las siguientes medidas:
+
+- **Contratos y Acuerdos:** Se establecerán contratos claros y detallados con clientes, colaboradores y cualquier 
+entidad con la que la empresa tenga relación comercial. Estos contratos especificarán los términos, condiciones y 
+responsabilidades de ambas partes, proporcionando una base legal sólida.
+
+- **Política de Privacidad y Protección de Datos:** Se implementará una política de privacidad que cumpla con la 
+normativa de protección de datos vigente. Esto garantizará el manejo adecuado y seguro de la información confidencial
+de clientes y colaboradores.
+
+- **Asesoría Legal Continua:** La empresa contará con servicios de asesoría legal para mantenerse actualizada sobre 
+los cambios en la legislación y recibir orientación en aspectos legales relevantes para su operación.
+
+### 2.8.2.2. Patentes, Marcas, Licencias y Permisos
+
+Para resguardar la propiedad intelectual y asegurar el cumplimiento normativo, se llevarán a cabo las siguientes 
+acciones:
+
+- **Registro de Propiedad Intelectual:** Se evaluará la posibilidad de registrar el software desarrollado y cualquier 
+propiedad intelectual asociada para proteger los derechos de autor y la innovación.
+
+- **Registro de Marca:** Se realizará el registro de la marca comercial de la empresa para proteger su identidad y 
+diferenciar sus servicios en el mercado.
+
+- **Licencias de Software:** En caso de utilizar software de terceros, se verificará y adquirirá las licencias 
+necesarias para garantizar un uso legal y evitar posibles litigios.
+
+- **Permisos y Autorizaciones:** Se obtendrán los permisos y autorizaciones necesarios para operar la empresa de 
+acuerdo con la normativa local y sectorial.
+
+Estas medidas asegurarán una base jurídica sólida y contribuirán a la protección de los activos de la empresa.
+
+### 2.8.3. Medios de Prevención de Riesgos Laborales
+
+Aunque la empresa opera de manera remota, se implementarán medidas para prevenir riesgos laborales, priorizando la 
+salud y bienestar de los empleados.
+
+#### Legislación Aplicable en Trabajo Remoto
+
+La empresa se regirá por la legislación vigente en materia de trabajo remoto en España. Algunos aspectos clave incluirán:
+
+- **Evaluación de Riesgos:** Se realizará una evaluación de riesgos laborales adaptada al trabajo remoto, identificando
+posibles peligros en el entorno doméstico de los autónomos.
+
+- **Equipamiento Ergonómico:** La empresa proporcionará orientación sobre la configuración ergonómica de los espacios 
+de trabajo en casa y, en la medida de lo posible, facilitará el suministro de equipos ergonómicos para garantizar 
+condiciones laborales seguras.
+
+- **Horarios y Descansos:** Se establecerán pautas claras respecto a horarios laborales, pausas y períodos de descanso
+para evitar la fatiga y promover un equilibrio adecuado entre trabajo y vida personal.
+
+- **Comunicación Continua:** Se fomentará la comunicación constante entre la empresa y los autónomos para abordar 
+cualquier preocupación relacionada con el bienestar laboral.
+
+- **Formación en Prevención:** Se proporcionará formación específica en prevención de riesgos laborales, adaptada 
+a las circunstancias del trabajo remoto.
+
+Estas medidas garantizarán el cumplimiento normativo y contribuirán a un entorno laboral remoto seguro y saludable.
+
+
 ## 2.9. Innovación
-### 2.9.1. Aspectos innovadores
-### 2.9.2. Elementos de sostenibilidad de la innovación
+
+### 2.9.1. Aspectos Innovadores
+
+La empresa se destacará por:
+
+- **Flexibilidad Laboral:** La estructura remota y la autonomía ofrecen flexibilidad a los empleados, fomentando un 
+ambiente innovador y adaptativo.
+
+- **Adopción de Nuevas Tecnologías:** La constante actualización en las tendencias tecnológicas garantizará soluciones 
+innovadoras y competitivas.
+
+### 2.9.2. Elementos de Sostenibilidad de la Innovación
+
+La sostenibilidad de la innovación se promoverá mediante:
+
+- **Formación Continua:** Incentivando a los empleados a mantenerse actualizados con las últimas tecnologías a través 
+de formación continua.
+
+- **Cultura Colaborativa:** Fomentando la colaboración y el intercambio de ideas para impulsar la innovación constante 
+en el desarrollo de soluciones digitales.
+
 
 # 3. Planificación temporal de la puesta en marcha
 
+## Fase 1: Preparación (Mes 1)
+- **Semana 1-2:** Definición del plan de negocio, objetivos y estrategias.
+- **Semana 3-4:** Investigación y selección de herramientas y tecnologías necesarias.
+
+## Fase 2: Aspectos Legales y Administrativos (Mes 2)
+- **Semana 1-2:** Registro como trabajador autónomo y elección de la forma jurídica.
+- **Semana 3-4:** Establecimiento de medidas de protección jurídica y trámites legales.
+
+## Fase 3: Configuración Tecnológica (Mes 3)
+- **Semana 1-2:** Adquisición y configuración de equipos y software.
+- **Semana 3-4:** Implementación de medidas de ciberseguridad y protección de datos.
+
+## Fase 4: Marketing y Presencia Online (Mes 4)
+- **Semana 1-2:** Desarrollo de estrategia de marketing digital.
+- **Semana 3-4:** Creación de perfiles en redes sociales y sitio web.
+
+## Fase 5: Inicio de Actividades (Mes 5)
+- **Semana 1-2:** Lanzamiento oficial y promoción en redes sociales.
+- **Semana 3-4:** Oferta de servicios y evaluación de retroalimentación inicial.
+
+## Fase 6: Consolidación y Ajustes (Mes 6 en adelante)
+- **Mes 6-12:** Evaluación continua, ajustes en la estrategia según la retroalimentación.
+- **Mensualmente:** Revisión de objetivos y proyecciones financieras.
+
+*Nota: Dado que es una empresa individual, las fases pueden solaparse y ajustarse según las necesidades y 
+circunstancias.*
+
+
 # 4. Proceso productivo: Auto-repair, un proyecto tipo
+
 ## 4.1. Captación del Cliente
 ### 4.1.1. Identificación de Potenciales Clientes
+- Utilización de investigaciones de mercado para identificar talleres mecánicos interesados en Auto-repair, 
+centrándonos en aquellos que buscan una gestión integral de su negocio con un desembolso monetario adaptado a las 
+posibilidades de las PYMEs.
+- Campañas de marketing dirigidas a talleres específicos de tamaño pequeño/mediano, enfatizando la asequibilidad y
+adaptabilidad de Auto-repair para las PYMEs, destacando que satisface las necesidades sin exceder presupuestos.
+
 ### 4.1.2. Estrategias de Marketing y Publicidad
+- Desarrollo de campañas publicitarias que resalten las ventajas de Auto-repair para los talleres, centrándonos en su 
+flexibilidad y adaptabilidad a las necesidades de cada negocio.
+- Participación activa en eventos locales de la industria automotriz para aumentar la visibilidad y establecer 
+conexiones directas con los propietarios de talleres.
+
 ### 4.1.3. Presentación de Servicios y Propuestas
+- Programación de reuniones detalladas para presentar los servicios de Auto-repair, destacando cómo puede beneficiar 
+a los talleres de forma específica y adaptada a sus requerimientos.
+- Elaboración de propuestas personalizadas que resalten la relación costo-beneficio, haciendo hincapié en cómo 
+Auto-repair puede cubrir las necesidades específicas de cada taller.
+
 ## 4.2. Análisis y Requerimientos
+
 ### 4.2.1. Reuniones con el Cliente para Comprender sus Necesidades
+- Establecimiento de reuniones presenciales o virtuales con los clientes, priorizando la cercanía y la comprensión 
+directa de sus necesidades.
+- Participación activa en sesiones de lluvia de ideas para captar los requisitos específicos de cada taller, 
+aprovechando la experiencia en el sector de desarrollo y de la automoción de la mano de Auto-repair.
+
 ### 4.2.2. Documentación de Requerimientos Funcionales y no Funcionales
+- Detallada documentación de los requisitos funcionales y no funcionales identificados durante las reuniones con 
+el cliente. Se crearán actas de cada reunión para garantizar la correcta comprensión de los requisitos y dejar constancia
+de los mismos.
+- Utilización de un lenguaje claro y accesible para garantizar la comprensión mutua y evitar malentendidos.
+
 ### 4.2.3. Análisis de Viabilidad del Proyecto
+- Evaluación cuidadosa de la viabilidad técnica y financiera del proyecto en colaboración estrecha con el cliente.
+- Proporcionar análisis transparente sobre la capacidad de Auto-repair para cumplir con los requisitos identificados.
+
+### 4.2.3. Propuesta de Proyecto Cerrado o Continuo
+- Presentación de opciones claras de proyecto cerrado o continuo, destacando los beneficios de ambas y adaptándolas 
+a las necesidades específicas de cada cliente.
+- Proyecto Cerrado: Desarrollo de un proyecto único con un presupuesto y plazo de entrega fijos.
+- Proyecto Continuo: Desarrollo de un proyecto a largo plazo con un presupuesto y plazo de entrega flexibles, con 
+iteraciones continuas y adaptación a los cambios de requisitos, próximo a metodologías ágiles.
+
 ## 4.3. Diseño del Software
+
 ### 4.3.1. Creación de Prototipos y Wireframes
+- Desarrollo de prototipos visuales y wireframes interactivos que representen la estructura y flujo de Auto-repair.
+- Iteración constante en colaboración con el cliente para ajustar y mejorar el diseño según sus comentarios y necesidades.
+
 ### 4.3.2. Diseño de la Arquitectura del Sistema
+- Definición de una arquitectura de sistema tradicional con cuatro componentes esenciales: el frontend web, el backend 
+con una API basada en el patrón MVC (Modelo-Vista-Controlador), la capa de persistencia y una posible capa de caché 
+opcional.
+- El frontend web proporcionará la interfaz de usuario que interactuará directamente con los usuarios de los talleres 
+mecánicos, permitiéndoles gestionar sus actividades de manera eficiente y sencilla.
+- El backend, implementado con un enfoque basado en el patrón MVC, se encargará de procesar las solicitudes del 
+frontend, gestionar la lógica de negocio y acceder a la capa de persistencia para almacenar y recuperar información 
+relevante.
+- La capa de persistencia constará de dos subpiezas: una base de datos tradicional relacional, que almacenará 
+información crítica y estructurada del sistema, y otra de tipo no relacional, destinada al almacenamiento de 
+información secundaria que no requiere la misma estructura rigurosa.
+- Se priorizará la escalabilidad y la redundancia en el diseño de la capa de persistencia para garantizar la integridad
+y disponibilidad de los datos.
+- La capa de caché opcional podría implementarse más adelante para mejorar la velocidad de acceso a datos frecuentemente
+utilizados, optimizando así el rendimiento del sistema.
+- La comunicación entre el frontend y el backend, así como entre el backend y la capa de persistencia (y la posible 
+capa de caché), se llevará a cabo a través de interfaces bien definidas y protocolos seguros.
+
+
 ### 4.3.3. Definición de la Interfaz de Usuario (UI) y la Experiencia del Usuario (UX)
-## 4.4. Desarrollo
-### 4.4.1. Codificación del Software según los Requisitos y Diseño
-### 4.4.2. Implementación de Pruebas Unitarias y de Integración
-### 4.4.3. Versionado y Control de Código Fuente
-## 4.5. Pruebas
-### 4.5.1. Ejecución de Pruebas Funcionales y no Funcionales
-### 4.5.2. Identificación y Corrección de Errores
-### 4.5.3. Validación con el Cliente
-## 4.6. Entrega Inicial
-### 4.6.1. Implementación del Software en el Entorno de Producción
-### 4.6.2. Capacitación del Cliente en el Uso del Software
-### 4.6.3. Seguimiento Post-implementación
-## 4.7. Mantenimiento y Soporte
-### 4.7.1. Monitoreo Continuo del Rendimiento del Software
-### 4.7.2. Resolución de Problemas y Errores
-### 4.7.3. Actualizaciones de Seguridad y Mejoras Menores
-## 4.8. Iteraciones y Mejoras
-### 4.8.1. Recopilación de Comentarios del Cliente
-### 4.8.2. Identificación de Oportunidades de Mejora
-### 4.8.3. Desarrollo e Implementación de Nuevas Características
-## 4.9. Documentación
-### 4.9.1. Elaboración de Manuales de Usuario
-### 4.9.2. Documentación Técnica y de Código
-### 4.9.3. Actualización Constante de la Documentación
-## 4.10. Evaluación del Proceso
-### 4.10.1. Análisis de la Efectividad del Proceso de Desarrollo
-### 4.10.2. Identificación de Áreas para Mejorar la Eficiencia
-### 4.10.3. Retroalimentación con el Equipo y el Cliente
+- Diseño de una interfaz de usuario (UI) basada en componentes tipo tabla, formularios y dashboards, permitiendo una 
+experiencia visual clara y eficiente para los usuarios de Auto-repair.
+- Implementación de visualizaciones personalizadas por usuario, adaptadas a sus roles y responsabilidades en el taller
+mecánico, brindando información relevante y funcionalidades específicas.
+- Desarrollo de una UI responsive, optimizada para versiones desktop y dispositivos móviles, garantizando la 
+accesibilidad y usabilidad en diferentes plataformas.
+- Integración de elementos de diseño moderno y atractivo, priorizando la legibilidad, la consistencia y el contraste 
+para mejorar la experiencia del usuario y reducir la curva de aprendizaje.
+- Colaboración estrecha con los usuarios finales para recopilar comentarios sobre la UI/UX durante el desarrollo, 
+asegurando ajustes continuos y mejoras basadas en la retroalimentación directa.
+
+### 4.3.4. Elección de Tecnologías y Herramientas
+
+El lenguaje de programación elegido para el desarrollo de Auto-repair es **JavaScript**, un lenguaje de programación
+interpretado, dinámico y de alto nivel, que se ejecuta en el lado del cliente y del servidor. JavaScript es el lenguaje
+de programación más popular del mundo, utilizado por más del 95% de los sitios web y por la mayoría de los
+navegadores web modernos.
+
+#### 4.3.4.1. IDE (Entorno de Desarrollo Integrado):
+- Visual Studio Code (VSCode): Un IDE ligero, potente y de código abierto que ofrece funcionalidades avanzadas para el 
+desarrollo web.
+
+#### 4.3.4.2. Frontend:
+- React: Una biblioteca de JavaScript para construir interfaces de usuario interactivas y eficientes.
+
+#### 4.3.4.3. Backend:
+- Node.js: Un entorno de ejecución para JavaScript del lado del servidor.
+- NestJS: Un framework de desarrollo para construir aplicaciones eficientes en Node.js.
+
+#### 4.3.4.4. Capa de Persistencia:
+- PostgreSQL: Un sistema de gestión de bases de datos relacional de código abierto y potente.
+- MongoDB: Una base de datos NoSQL orientada a documentos, escalable y flexible.
+
+#### 4.3.4.5. Control de Tareas:
+- GitHub Projects: Una herramienta de gestión de proyectos integrada en GitHub que facilita el seguimiento y la 
+organización de tareas.
+
+#### 4.3.4.6. Control de Versiones:
+- GitHub: Una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones.
+
+#### 4.3.4.7. Automatización de Integración y Despliegue (CI/CD):
+- GitHub Actions: Permite la automatización de tareas como la integración continua y el despliegue continuo 
+directamente desde GitHub.
+
+#### 4.3.4.8. Plataforma de Hosting:
+- Render: Una plataforma de alojamiento que soporta el despliegue de aplicaciones web, proporcionando servicios para 
+frontend, backend y bases de datos.
+
+#### 4.3.4.9. Trazas, metricas y logs:
+- OpenTelemetry: Una plataforma de observabilidad de código abierto que permite la generación de trazas, métricas y
+logs para el análisis y la monitorización de aplicaciones en contexto backend y frontend.
+
+## 4.4. Desarrollo en opción de Proyecto Cerrado
+
+### 4.4.1 Infraestructura de Desarrollo
+
+#### 4.4.1.1. Gestión de Tareas: GitHub Projects
+- GitHub Projects se utilizará para organizar y gestionar las tareas del proyecto. Se crearán tableros con columnas que 
+representen los diferentes estados de las tareas, desde la planificación hasta la implementación y la revisión.
+
+#### 4.4.1.2. Control de Versiones: Git en GitHub
+- Git, integrado con GitHub, será la herramienta principal para el control de versiones. Se seguirá el flujo de trabajo
+de Gitflow para gestionar las ramas y las versiones del código fuente.
+
+
+#### 4.4.1.3. Entornos de Desarrollo: Desarrollo, Preproducción y Producción
+- Se establecerán tres entornos distintos:
+   1. **Desarrollo:** Utilizado por los desarrolladores para trabajar en nuevas características y mejoras.
+      En el se pueden desplegar ramas **develop y feature**.
+   2. **Preproducción:** Donde se realizarán pruebas finales antes de la implementación en producción.
+      En el se pueden desplegar ramas **release**.
+   3. **Producción:** Entorno en vivo utilizado por los usuarios finales para acceder y utilizar la aplicación Auto-repair.
+      En el se despliega la rama **main**.
+Todos los entornos se desplegarán en Render, una plataforma de alojamiento que soporta el despliegue de aplicaciones, 
+servicios y bases de datos.
+
+### 4.4.2. Ciclo de vida del desarrollo
+#### 4.4.2.1. Metodología de trabajo: Gitflow
+**Gitflow** es una metodología de flujo de trabajo para proyectos gestionados con Git. Propuesto por Vincent Driessen, 
+se centra en organizar el proceso de desarrollo de software en un conjunto de ramas bien definidas para facilitar la 
+colaboración y la entrega de versiones estables. Aquí hay una breve descripción de las ramas clave y cómo se utilizan:
+
+1. **Develop (Desarrollo):** Esta rama es la rama principal donde se integran todas las características y correcciones 
+de errores. Representa la última versión estable del proyecto.
+
+2. **Feature (Característica):** Se crean ramas de características a partir de la rama de desarrollo para implementar 
+nuevas funcionalidades o mejoras. Una vez que se completa la característica, se fusiona de nuevo en la rama de desarrollo.
+
+3. **Release (Lanzamiento):** Cuando se prepara una nueva versión para su lanzamiento, se crea una rama de lanzamiento 
+a partir de la rama de desarrollo. En esta rama, se pueden realizar pruebas finales y correcciones de errores antes de 
+la versión final. Luego, se fusiona en la rama de desarrollo y se etiqueta como una versión.
+
+4. **Main (Principal):** Esta es la rama principal del proyecto. Las versiones estables se fusionan aquí desde la rama 
+de desarrollo. Cada fusión en la rama principal también se etiqueta con la versión.
+
+Estos son los conceptos básicos de Gitflow. Facilita la gestión de versiones y el trabajo colaborativo, ya que 
+proporciona una estructura clara para la integración de características y lanzamientos.
+
+Ejemlplo de flujo gitflow para el desarrollo de una nueva funcionalidad:
+
+                             ┌───────────────────────┐ 1. Crear Rama de Feature
+                             │      develop          │───────────────────────
+                             │                       │
+                             └───────────────────────┘
+                                        │
+                                        ▼
+                             ┌───────────────────────┐ 2. Comenzar Nueva Feature
+                             │      feature/         │───────────────────────
+                             │      my-feature       │
+                             └───────────────────────┘
+                                        │
+                                        ▼
+                             ┌───────────────────────┐ 3. Finalizar Feature
+                             │      feature/         │───────────────────────
+                             │      my-feature       │
+                             └───────────────────────┘
+                                        │
+                                        ▼
+                             ┌───────────────────────┐ 4. Fusionar con Develop
+                             │      develop          │───────────────────────
+                             │                       │
+                             └───────────────────────┘
+                                        │
+                                        ▼
+                             ┌───────────────────────┐ 5. Crear Rama de Release
+                             │      develop          │───────────────────────
+                             │                       │
+                             └───────────────────────┘
+                                        │
+                                        ▼
+                             ┌───────────────────────┐ 6. Comenzar Release
+                             │      release/         │───────────────────────
+                             │      1.0.0            │
+                             └───────────────────────┘
+                                        │
+                                        ▼
+                             ┌───────────────────────┐ 7. Realizar Pruebas
+                             │      release/         │───────────────────────
+                             │      1.0.0            │
+                             └───────────────────────┘
+                                        │
+                                        ▼
+                             ┌───────────────────────┐ 8. Fusionar con Main y Develop
+                             │      main             │───────────────────────
+                             │                       │
+                             └───────────────────────┘
+
+## 4.4.2. Ciclo de vida del desarrollo
+
+### 4.4.2.2. Integración continua: GitHub Actions
+
+La rama `develop` será gestionada a través de Pull Requests (PR), donde se aplicarán verificaciones automáticas como 
+linting, formateo y ejecución de pruebas antes de que el código sea fusionado. GitHub Actions se encargará de ejecutar 
+estos procesos automáticamente, asegurando la calidad del código antes de su integración.
+
+En el caso de las ramas `release` se desplegarán en el entorno de preproducción de forma automática y pasando los mismos
+procesos de verificación que en la rama `develop`. Una vez que se compruebe que la versión es estable, se fusionará
+con la rama `main`, la cual vovlerá a pasar  por los mismos procesos de verificación y se desplegará también de forma
+automática en el entorno de producción.
+
+Ejemplo de fichero de configuración de GitHub Actions para la rama `develop`:
+
+```yaml
+name: Continuous Integration
+
+on:
+pull_request:
+branches:
+- develop
+
+jobs:
+build:
+runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Linting and Formatting
+        run: npm run lint && npm run format:check
+
+      - name: Run Tests
+        run: npm test
+```
+
+
+### 4.4.2.3. Despliegue continuo: Plataforma Render
+
+Una vez que las Pull Requests son aceptadas y se fusiona código en la rama `develop`, render se encargará de 
+desplegar automáticamente la aplicación en el entorno de desarrollo. Este proceso garantiza una rápida visualización 
+de los cambios implementados y facilita la colaboración en un entorno controlado.
+
+Este mimos proceso se aplicará a las ramas `release` y `main`, desplegando la aplicación en los entornos de
+preproducción y producción respectivamente.
+
+### 4.4.2.4. Documentación global: GitHub Pages
+
+La documentación del proyecto estará alojada en GitHub Pages, proporcionando una fuente centralizada de información 
+para desarrolladores, colaboradores y usuarios finales. La actualización de la documentación será parte del flujo de 
+trabajo automatizado para reflejar los cambios realizados en el código y garantizar que la información esté siempre 
+sincronizada con la versión más reciente del software.
+
+
+### 4.4.3. Codificación
+### 4.4.3.1. Codificación del Software según Diseño
+
+El proceso de codificación seguirá estándares y buenas prácticas de programación para garantizar la legibilidad, 
+mantenibilidad y eficiencia del código. Algunos principios clave incluirán:
+
+- **Claridad y Consistencia:** Se buscará que el código sea claro y coherente, siguiendo convenciones de 
+nomenclatura comprensibles.
+
+- **Modularidad:** El código se organizará en módulos y componentes independientes para facilitar la comprensión y 
+posibilitar futuras expansiones.
+
+- **Comentarios y Documentación:** Se incluirán comentarios explicativos en el código, y se mantendrá una documentación
+técnica actualizada que describa la estructura y funcionalidad del sistema.
+
+### 4.4.3.2. Implementación de Pruebas Unitarias y de Integración
+
+Se adoptará una estrategia integral de pruebas para asegurar la fiabilidad y la robustez del software. Esto incluirá:
+
+- **Pruebas Unitarias:** Se desarrollarán pruebas unitarias para evaluar la funcionalidad de las unidades individuales
+de código. Se utilizarán herramientas como Jest para el frontend y el backend.
+
+- **Pruebas de Integración:** Se realizarán pruebas de integración para verificar la correcta interacción entre los 
+distintos componentes del sistema. Se emplearán herramientas como Supertest para el backend y Cypress para el frontend.
+
+- **Automatización de Pruebas:** Se implementará un flujo de trabajo que ejecute automáticamente las pruebas con cada 
+cambio de código. GitHub Actions se utilizará para facilitar la integración continua y despliegue seguro.
+
+Este enfoque garantizará la calidad del software y permitirá una identificación temprana de posibles problemas, 
+facilitando la corrección oportuna.
+
+
+### 4.4.4. Entrega Inicial: MVP (Minimum Viable Product)
+
+El concepto de **MVP (Minimum Viable Product)** se refiere a la entrega inicial de un producto que incluye solo las 
+características esenciales necesarias para satisfacer las necesidades básicas de los usuarios. En lugar de desarrollar 
+un producto completo con todas las funciones desde el principio, se identifican y implementan las características 
+mínimas que permitirán que el producto sea funcional y útil.
+
+#### 4.4.4.1. Implementación del Software en el Entorno de Producción
+
+Una vez completada la fase de desarrollo y superadas las pruebas, el software se implementará en el entorno de 
+producción. Este despliegue se realizará de forma automatizada mediante GitHub Actions y se verificará para garantizar 
+una transición suave al ambiente de producción.
+
+#### 4.4.4.2. Capacitación del Cliente en el Uso del Software
+
+Se llevará a cabo una sesión de capacitación con el cliente para familiarizarlo con la interfaz y funcionalidades del 
+software. Se proporcionará documentación detallada y soporte para asegurar una adopción exitosa.
+
+#### 4.4.4.3. Recopilación de Comentarios del Cliente
+
+Después de la implementación inicial, se recopilarán los comentarios del cliente sobre su experiencia con el software. 
+Se utilizarán encuestas y sesiones de retroalimentación para entender sus percepciones y necesidades.
+
+#### 4.4.4.4. Identificación de correcciones y mejoras
+
+Con base en los comentarios del cliente, se identificarán posibles correcciones y mejoras. Se categorizarán según su 
+prioridad y complejidad para su inclusión en futuras actualizaciones.
+
+#### 4.4.4.5. Desarrollo e Implementación de correcciones y mejoras
+
+Se procederá con el desarrollo de las correcciones y mejoras identificadas. Estos cambios se integrarán en el código 
+mediante un enfoque de desarrollo ágil y serán desplegados en el entorno de producción de manera continua.
+
+Este ciclo permitirá una evolución constante del software, asegurando que se adapte a las necesidades cambiantes del 
+cliente y proporcionando una experiencia de usuario mejorada.
+
+
+### 4.4.5. Entrega final
+#### 4.4.5.1. Recopilación de Comentarios del Cliente
+Se llevará a cabo una sesión de retroalimentación con el cliente para recopilar comentarios finales sobre la versión 
+entregada y se documentará cuidadosamente todas las sugerencias, observaciones y requisitos adicionales proporcionados 
+por el cliente.
+
+#### 4.4.5.2. Identificación de Oportunidades de Mejora
+Se analizarán los comentarios del cliente para identificar oportunidades de mejora y nuevas características, evaluando
+la viabilidad de implementar las mejoras sugeridas y realizar ajustes según sea necesario.
+
+### 4.4.6. Mantenimiento y Soporte
+#### 4.4.6.1. Monitoreo Continuo del Rendimiento del Software
+En el caso de frontend como backend utilizaremos la herramiente de OpenTelemetry para monitorear el rendimiento del software, 
+recopilando trazas, métricas y registros.
+
+#### 4.4.6.2. Resolución de Problemas y Errores
+A traves de Github Projects, se destinará un tablero para el cliente donde podraá reportar informes de errores, que 
+permitirá a los desarrolladores responder y solucionar rápidamente los problemas y errores identificados y mantener
+al cliente informado sobre el estado de las correcciones.
+#### 4.4.6.3. Actualizaciones de Seguridad y Mejoras Menores
+Implementar actualizaciones regulares para abordar problemas de seguridad y realizar mejoras menores, manteniendo
+actualizaciones de paquetes y dependencias de forma regular y planificada.
+Garantizar que el software esté siempre actualizado y cumpla con los estándares de seguridad.
+
+### 4.4.7 Documentación
+#### 4.4.7.1. Elaboración de Manuales de Usuario
+Crear manuales de usuario detallados que guíen a los usuarios en la operación y utilización efectiva del software.
+Todo ello se centralizará a través de Github Pasges.
+
+#### 4.4.7.2. Documentación Técnica y de Código
+- Generar documentación técnica que describa la arquitectura, los componentes y las tecnologías utilizadas en el desarrollo.
+- Documentar el código fuente para facilitar la comprensión y el mantenimiento futuro. 
+
+De nuevo sacaremos partido de Github Pages para centralizar toda la documentación tecnica y de código.
+
+#### 4.4.7.3. Actualización Constante de la Documentación
+Se matendrá la documentación actualizada a medida que se realizan cambios en el software, propoprionando un recurso de
+referencia completo para el equipo de desarrollo y los usuarios.
 
 # 5. Bibliografía y Recursos
 
-# 6. Fin Índice Contenidos
+## Git
+- [Pro Git](https://git-scm.com/book/en/v2) de Scott Chacon y Ben Straub.
+- [Documentación oficial de Git](https://git-scm.com/doc).
+- [GitHub Learning Lab](https://lab.github.com/).
+
+## Visual Studio Code (VSCode)
+- [Documentación oficial de Visual Studio Code](https://code.visualstudio.com/docs).
+
+## Node.js y NestJS
+- [Documentación oficial de Node.js](https://nodejs.org/en/docs/).
+- [Documentación oficial de NestJS](https://docs.nestjs.com/).
+
+## OpenTelemetry
+- [Documentación oficial de OpenTelemetry](https://opentelemetry.io/docs/).
+
+## Gitflow
+- [Blog del creador de Gitflow, Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model).
+
+## React
+- [Documentación oficial de React](https://reactjs.org/docs/getting-started.html).
+
+## Render
+- [Documentación oficial de Render](https://render.com/docs).
+
+## GitHub Projects
+- [Documentación oficial de GitHub Projects](https://docs.github.com/es/issues/managing-your-work-on-github/about-project-boards).
+
+## GitHub Pages
+- [Documentación oficial de GitHub Pages](https://docs.github.com/es/pages).
+
+## GitHub Actions
+- [Documentación oficial de GitHub Actions](https://docs.github.com/es/actions).
+
+## PostgreSQL (PostgresDB)
+- [Documentación oficial de PostgreSQL](https://www.postgresql.org/docs/).
+
+## MongoDB
+- [Documentación oficial de MongoDB](https://docs.mongodb.com/).
+
+## JavaScript
+- [Mozilla Developer Network (MDN) - JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide).
+
+# 6. Anexos
+## 6.1. Anexo 1: Código fuente
+
+## 6.2. Anexo 2: Entorno productivo
