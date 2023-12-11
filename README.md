@@ -1044,7 +1044,7 @@ referencia completo para el equipo de desarrollo y los usuarios.
 
 # 6. Anexos
 ## 6.1. Anexo 1: Código fuente
-- frontend: https://github.com/Falagan/ar-app-web
-- backend: https://github.com/Falagan/ar-service-api
+- [frontend](https://github.com/Falagan/ar-app-web)
+- [backend](https://github.com/Falagan/ar-service-api)
 ## 6.2. Anexo 2: Entorno productivo
-- link: https://ar-app-web.onrender.com
+- [Producción](https://ar-app-web.onrender.com)
