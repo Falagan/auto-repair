@@ -68,14 +68,14 @@
     * [4.3.3. Definición de la Interfaz de Usuario (UI) y la Experiencia del Usuario (UX)](#433-definición-de-la-interfaz-de-usuario-ui-y-la-experiencia-del-usuario-ux)
     * [4.3.4. Elección de Tecnologías y Herramientas](#434-elección-de-tecnologías-y-herramientas)
       * [4.3.4.1. IDE (Entorno de Desarrollo Integrado):](#4341-ide-entorno-de-desarrollo-integrado)
-      * [4.3.4.2. Frontend:](#4342-frontend)
-      * [4.3.4.3. Backend:](#4343-backend)
-      * [4.3.4.4. Capa de Persistencia:](#4344-capa-de-persistencia)
-      * [4.3.4.5. Control de Tareas:](#4345-control-de-tareas)
-      * [4.3.4.6. Control de Versiones:](#4346-control-de-versiones)
-      * [4.3.4.7. Automatización de Integración y Despliegue (CI/CD):](#4347-automatización-de-integración-y-despliegue-cicd)
-      * [4.3.4.8. Plataforma de Hosting:](#4348-plataforma-de-hosting)
-      * [4.3.4.9. Trazas, metricas y logs:](#4349-trazas-metricas-y-logs)
+      * [4.3.4.2. Frontend](#4342-frontend)
+      * [4.3.4.3. Backend](#4343-backend)
+      * [4.3.4.4. Capa de Persistencia](#4344-capa-de-persistencia)
+      * [4.3.4.5. Control de Tareas](#4345-control-de-tareas)
+      * [4.3.4.6. Control de Versiones](#4346-control-de-versiones)
+      * [4.3.4.7. Automatización de Integración y Despliegue (CI/CD)](#4347-automatización-de-integración-y-despliegue-cicd)
+      * [4.3.4.8. Plataforma de Hosting](#4348-plataforma-de-hosting)
+      * [4.3.4.9. Trazas, metricas y logs](#4349-trazas-metricas-y-logs)
   * [4.4. Desarrollo en opción de Proyecto Cerrado](#44-desarrollo-en-opción-de-proyecto-cerrado)
     * [4.4.1 Infraestructura de Desarrollo](#441-infraestructura-de-desarrollo)
       * [4.4.1.1. Gestión de Tareas: GitHub Projects](#4411-gestión-de-tareas-github-projects)
@@ -83,13 +83,12 @@
       * [4.4.1.3. Entornos de Desarrollo: Desarrollo, Preproducción y Producción](#4413-entornos-de-desarrollo-desarrollo-preproducción-y-producción)
     * [4.4.2. Ciclo de vida del desarrollo](#442-ciclo-de-vida-del-desarrollo)
       * [4.4.2.1. Metodología de trabajo: Gitflow](#4421-metodología-de-trabajo-gitflow)
-  * [4.4.2. Ciclo de vida del desarrollo](#442-ciclo-de-vida-del-desarrollo-1)
-    * [4.4.2.2. Integración continua: GitHub Actions](#4422-integración-continua-github-actions)
-    * [4.4.2.3. Despliegue continuo: Plataforma Render](#4423-despliegue-continuo-plataforma-render)
-    * [4.4.2.4. Documentación global: GitHub Pages](#4424-documentación-global-github-pages)
+      * [4.4.2.2. Integración continua: GitHub Actions](#4422-integración-continua-github-actions)
+      * [4.4.2.3. Despliegue continuo: Plataforma Render](#4423-despliegue-continuo-plataforma-render)
+      * [4.4.2.4. Documentación global: GitHub Pages](#4424-documentación-global-github-pages)
     * [4.4.3. Codificación](#443-codificación)
-    * [4.4.3.1. Codificación del Software según Diseño](#4431-codificación-del-software-según-diseño)
-    * [4.4.3.2. Implementación de Pruebas Unitarias y de Integración](#4432-implementación-de-pruebas-unitarias-y-de-integración)
+      * [4.4.3.1. Codificación del Software según Diseño](#4431-codificación-del-software-según-diseño)
+      * [4.4.3.2. Implementación de Pruebas Unitarias y de Integración](#4432-implementación-de-pruebas-unitarias-y-de-integración)
     * [4.4.4. Entrega Inicial: MVP (Minimum Viable Product)](#444-entrega-inicial-mvp-minimum-viable-product)
       * [4.4.4.1. Implementación del Software en el Entorno de Producción](#4441-implementación-del-software-en-el-entorno-de-producción)
       * [4.4.4.2. Capacitación del Cliente en el Uso del Software](#4442-capacitación-del-cliente-en-el-uso-del-software)
@@ -956,26 +955,26 @@ interpretado, dinámico y de alto nivel, que se ejecuta en el lado del cliente y
 de programación más popular del mundo, utilizado por más del 95% de los sitios web y por la mayoría de los
 navegadores web modernos.
 
-#### 4.3.4.1. IDE (Entorno de Desarrollo Integrado):
+#### 4.3.4.1. IDE (Entorno de Desarrollo Integrado)
 - Visual Studio Code (VSCode): Un IDE ligero, potente y de código abierto que ofrece funcionalidades avanzadas para el 
 desarrollo web.
 
-#### 4.3.4.2. Frontend:
+#### 4.3.4.2. Frontend
 - React: Una biblioteca de JavaScript para construir interfaces de usuario interactivas y eficientes.
 
-#### 4.3.4.3. Backend:
+#### 4.3.4.3. Backend
 - Node.js: Un entorno de ejecución para JavaScript del lado del servidor.
 - NestJS: Un framework de desarrollo para construir aplicaciones eficientes en Node.js.
 
-#### 4.3.4.4. Capa de Persistencia:
+#### 4.3.4.4. Capa de Persistencia
 - PostgreSQL: Un sistema de gestión de bases de datos relacional de código abierto y potente.
 - MongoDB: Una base de datos NoSQL orientada a documentos, escalable y flexible.
 
-#### 4.3.4.5. Control de Tareas:
+#### 4.3.4.5. Control de Tareas
 - GitHub Projects: Una herramienta de gestión de proyectos integrada en GitHub que facilita el seguimiento y la 
 organización de tareas.
 
-#### 4.3.4.6. Control de Versiones:
+#### 4.3.4.6. Control de Versiones
 - GitHub: Una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones.
 
 #### 4.3.4.7. Automatización de Integración y Despliegue (CI/CD):
@@ -1088,8 +1087,6 @@ Ejemlplo de flujo gitflow para el desarrollo de una nueva funcionalidad:
                              └───────────────────────┘
 
 <div style="page-break-after: always;"></div>
-
-## 4.4.2. Ciclo de vida del desarrollo
 
 ### 4.4.2.2. Integración continua: GitHub Actions
 
