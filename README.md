@@ -1,8 +1,16 @@
-<h1 style="font-family: Arial, sans-serif;background-color: #333; color: #fff; text-align: center; padding: 1em;">
-<span style="color: #fff; text-align: center; font-size: 40px"> >_ </span>falagan | software 
-</h1>
+![img_7.png](img_7.png)
+<div style="position: absolute; bottom: 10px; right: 50px;color: gray; font-size: 20px">Eloy Pérez Otero</div>
+
+<div style="page-break-after: always;"></div>
+
+<div style="position: relative; text-align: right;color: gray; font-size: 18px;font-style: italic">
+<p>A Mónica, Mateo y Julia. Sin ellos no habría empezado este proyecto.</p>
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ## Índice de Contenidos
+* [Índice de Contenidos](#índice-de-contenidos)
 * [1. Introducción](#1-introducción)
 * [2. Modelo de Plan de Negocio](#2-modelo-de-plan-de-negocio)
   * [2.1. Resumen Ejecutivo](#21-resumen-ejecutivo)
@@ -19,7 +27,7 @@
     * [2.4.2. Segmento de clientes](#242-segmento-de-clientes)
     * [2.4.3. Canales de Distribución](#243-canales-de-distribución)
     * [2.4.4. Fuentes de Ingresos](#244-fuentes-de-ingresos)
-  * [2.5. Operaciones y Estructura Organizativa](#25-operaciones-y-estructura-organizativa)
+  * [2.5. Operaciones y Estructura Organizativa](#25-operaciones[README.docx](README.docx)-y-estructura-organizativa)
     * [2.5.1. Estructura Organizativa](#251-estructura-organizativa)
     * [2.5.2. Proceso de Desarrollo](#252-proceso-de-desarrollo)
   * [2.5.3. Localización de la Empresa: Rural vs Ciudad.](#253-localización-de-la-empresa-rural-vs-ciudad)
@@ -53,7 +61,7 @@
   * [Fase 4: Marketing y Presencia Online (Mes 4)](#fase-4-marketing-y-presencia-online-mes-4)
   * [Fase 5: Inicio de Actividades (Mes 5)](#fase-5-inicio-de-actividades-mes-5)
   * [Fase 6: Consolidación y Ajustes (Mes 6 en adelante)](#fase-6-consolidación-y-ajustes-mes-6-en-adelante)
-* [4. Proceso productivo: Auto-repair, un proyecto tipo](#4-proceso-productivo-auto-repair-un-proyecto-tipo)
+* [4. Proceso productivo: auto-repair, un proyecto tipo](#4-proceso-productivo-auto-repair-un-proyecto-tipo)
   * [4.1. Captación del Cliente](#41-captación-del-cliente)
     * [4.1.1. Identificación de Potenciales Clientes](#411-identificación-de-potenciales-clientes)
     * [4.1.2. Estrategias de Marketing y Publicidad](#412-estrategias-de-marketing-y-publicidad)
@@ -61,22 +69,30 @@
   * [4.2. Análisis y Requerimientos](#42-análisis-y-requerimientos)
     * [4.2.1. Reuniones con el Cliente para Comprender sus Necesidades](#421-reuniones-con-el-cliente-para-comprender-sus-necesidades)
     * [4.2.2. Documentación de Requerimientos Funcionales y no Funcionales](#422-documentación-de-requerimientos-funcionales-y-no-funcionales)
+      * [4.2.2.1 Requisitos Funcionales](#4221-requisitos-funcionales)
+    * [Funcionalidades Generales:](#funcionalidades-generales)
+    * [Funcionalidades para Administradores:](#funcionalidades-para-administradores)
+    * [Funcionalidades para Empleados:](#funcionalidades-para-empleados)
+    * [Funcionalidades para Clientes:](#funcionalidades-para-clientes)
+    * [Funcionalidades Compartidas:](#funcionalidades-compartidas)
+      * [4.2.2.2 Requisitos no Funcionales](#4222-requisitos-no-funcionales)
     * [4.2.3. Análisis de Viabilidad del Proyecto](#423-análisis-de-viabilidad-del-proyecto)
-    * [4.2.3. Propuesta de Proyecto Cerrado o Continuo](#423-propuesta-de-proyecto-cerrado-o-continuo)
   * [4.3. Diseño del Software](#43-diseño-del-software)
     * [4.3.1. Creación de Prototipos y Wireframes](#431-creación-de-prototipos-y-wireframes)
     * [4.3.2. Diseño de la Arquitectura del Sistema](#432-diseño-de-la-arquitectura-del-sistema)
-    * [4.3.3. Definición de la Interfaz de Usuario (UI) y la Experiencia del Usuario (UX)](#433-definición-de-la-interfaz-de-usuario-ui-y-la-experiencia-del-usuario-ux)
+      * [4.3.2.1. Diseño backend](#4321-diseño-backend)
+      * [4.3.2.2. Diseño frontend](#4322-diseño-frontend)
+        * [4.3.2.2.1. Definición de la Interfaz de Usuario (UI) y la Experiencia del Usuario (UX)](#43221-definición-de-la-interfaz-de-usuario-ui-y-la-experiencia-del-usuario-ux)
     * [4.3.4. Elección de Tecnologías y Herramientas](#434-elección-de-tecnologías-y-herramientas)
-      * [4.3.4.1. IDE (Entorno de Desarrollo Integrado):](#4341-ide-entorno-de-desarrollo-integrado)
+      * [4.3.4.1. IDE (Entorno de Desarrollo Integrado)](#4341-ide-entorno-de-desarrollo-integrado)
       * [4.3.4.2. Frontend](#4342-frontend)
       * [4.3.4.3. Backend](#4343-backend)
       * [4.3.4.4. Capa de Persistencia](#4344-capa-de-persistencia)
       * [4.3.4.5. Control de Tareas](#4345-control-de-tareas)
       * [4.3.4.6. Control de Versiones](#4346-control-de-versiones)
-      * [4.3.4.7. Automatización de Integración y Despliegue (CI/CD)](#4347-automatización-de-integración-y-despliegue-cicd)
-      * [4.3.4.8. Plataforma de Hosting](#4348-plataforma-de-hosting)
-      * [4.3.4.9. Trazas, metricas y logs](#4349-trazas-metricas-y-logs)
+      * [4.3.4.7. Automatización de Integración y Despliegue (CI/CD):](#4347-automatización-de-integración-y-despliegue-cicd)
+      * [4.3.4.8. Plataforma de Hosting:](#4348-plataforma-de-hosting)
+      * [4.3.4.9. Trazas, métricas y logs:](#4349-trazas-metricas-y-logs)
   * [4.4. Desarrollo en opción de Proyecto Cerrado](#44-desarrollo-en-opción-de-proyecto-cerrado)
     * [4.4.1 Infraestructura de Desarrollo](#441-infraestructura-de-desarrollo)
       * [4.4.1.1. Gestión de Tareas: GitHub Projects](#4411-gestión-de-tareas-github-projects)
@@ -84,12 +100,12 @@
       * [4.4.1.3. Entornos de Desarrollo: Desarrollo, Preproducción y Producción](#4413-entornos-de-desarrollo-desarrollo-preproducción-y-producción)
     * [4.4.2. Ciclo de vida del desarrollo](#442-ciclo-de-vida-del-desarrollo)
       * [4.4.2.1. Metodología de trabajo: Gitflow](#4421-metodología-de-trabajo-gitflow)
-      * [4.4.2.2. Integración continua: GitHub Actions](#4422-integración-continua-github-actions)
-      * [4.4.2.3. Despliegue continuo: Plataforma Render](#4423-despliegue-continuo-plataforma-render)
-      * [4.4.2.4. Documentación global: GitHub Pages](#4424-documentación-global-github-pages)
+    * [4.4.2.2. Integración continua: GitHub Actions](#4422-integración-continua-github-actions)
+    * [4.4.2.3. Despliegue continuo: Plataforma Render](#4423-despliegue-continuo-plataforma-render)
+    * [4.4.2.4. Documentación global: GitHub Pages](#4424-documentación-global-github-pages)
     * [4.4.3. Codificación](#443-codificación)
-      * [4.4.3.1. Codificación del Software según Diseño](#4431-codificación-del-software-según-diseño)
-      * [4.4.3.2. Implementación de Pruebas Unitarias y de Integración](#4432-implementación-de-pruebas-unitarias-y-de-integración)
+    * [4.4.3.1. Codificación del Software según Diseño](#4431-codificación-del-software-según-diseño)
+    * [4.4.3.2. Implementación de Pruebas Unitarias y de Integración](#4432-implementación-de-pruebas-unitarias-y-de-integración)
     * [4.4.4. Entrega Inicial: MVP (Minimum Viable Product)](#444-entrega-inicial-mvp-minimum-viable-product)
       * [4.4.4.1. Implementación del Software en el Entorno de Producción](#4441-implementación-del-software-en-el-entorno-de-producción)
       * [4.4.4.2. Capacitación del Cliente en el Uso del Software](#4442-capacitación-del-cliente-en-el-uso-del-software)
@@ -121,6 +137,7 @@
   * [PostgreSQL (PostgresDB)](#postgresql-postgresdb)
   * [MongoDB](#mongodb)
   * [JavaScript](#javascript)
+  * [JWT (Json Web Token)](#jwt-json-web-token)
 * [6. Anexos](#6-anexos)
   * [6.1. Anexo 1: Código fuente](#61-anexo-1-código-fuente)
   * [6.2. Anexo 2: Entorno productivo](#62-anexo-2-entorno-productivo)
@@ -434,7 +451,7 @@ Se asigna un presupuesto de 1,000 euros para estrategias de marketing digital, p
 creación de materiales promocionales.
 
 - **Reserva de Emergencia:** Para cubrir posibles imprevistos y mantener la estabilidad financiera, se destina un 
-- fondo de emergencia de 1,000 euros.
+fondo de emergencia de 1,000 euros.
 
 ### 2.7.2. Proyecciones Financieras
 
@@ -732,7 +749,6 @@ Ejemplo de acta de reunión:
     aplicación de gestión para talleres mecánicos. Se espera que esta solución mejore significativamente la eficiencia 
     y la experiencia operativa del taller.
 
-
 ### 4.2.2. Documentación de Requerimientos Funcionales y no Funcionales
 - Detallada documentación de los requisitos funcionales y no funcionales identificados durante las reuniones con 
 el cliente. Se crearán actas de cada reunión para garantizar la correcta comprensión de los requisitos y dejar constancia
@@ -878,17 +894,74 @@ Existirán tres niveles de usuarios: `administrador`, `empleado` y `cliente`:
 Estos requisitos funcionales y no funcionales ayudarán a guiar el desarrollo de la aplicación web para garantizar que 
 cumpla con las expectativas y necesidades de los usuarios y de la empresa.
 
+<div style="page-break-after: always;"></div>
 
 ### 4.2.3. Análisis de Viabilidad del Proyecto
 - Evaluación cuidadosa de la viabilidad técnica y financiera del proyecto en colaboración estrecha con el cliente.
 - Proporcionar análisis transparente sobre la capacidad de Auto-repair para cumplir con los requisitos identificados.
-
-### 4.2.3. Propuesta de Proyecto Cerrado o Continuo
-- Presentación de opciones claras de proyecto cerrado o continuo, destacando los beneficios de ambas y adaptándolas 
+- Presentación de opciones claras de proyecto **cerrado** o **continuo**, destacando los beneficios de ambas y adaptándolas 
 a las necesidades específicas de cada cliente.
-- Proyecto Cerrado: Desarrollo de un proyecto único con un presupuesto y plazo de entrega fijos.
-- Proyecto Continuo: Desarrollo de un proyecto a largo plazo con un presupuesto y plazo de entrega flexibles, con 
-iteraciones continuas y adaptación a los cambios de requisitos, próximo a metodologías ágiles.
+
+**Proyecto Cerrado:**
+
+El enfoque de un proyecto cerrado implica definir claramente los requisitos, el alcance y los objetivos desde 
+el principio. Aquí, el presupuesto y el plazo de entrega son fijos y generalmente se acuerdan antes de que comience 
+el trabajo. Este enfoque es adecuado cuando los requisitos del proyecto son bien conocidos y no se espera que 
+cambien significativamente durante el desarrollo. Los equipos tienden a seguir una planificación detallada y una 
+secuencia de pasos predefinida.
+
+    Ventajas del Proyecto Cerrado:
+    
+    1. Previsibilidad: El cliente sabe exactamente cuánto costará y cuánto tiempo llevará el proyecto.
+    
+    2. Control de Costos: Al tener un presupuesto fijo, se facilita el control de los costos.
+    
+    3. Planificación Detallada: Permite una planificación detallada antes de iniciar el proyecto.
+    
+    4. Entrega Puntual: Si se sigue la planificación, es probable que el proyecto se entregue a tiempo.
+    
+    Desventajas del Proyecto Cerrado:
+    
+    1. Poca Flexibilidad: No es adecuado para proyectos en los que los requisitos pueden cambiar frecuentemente.
+    
+    2. Adaptabilidad Limitada: Dificulta la adaptación a cambios importantes una vez que el proyecto ha comenzado.
+    
+    3. Riesgo de Entrega de Productos No Alineados: Si los requisitos cambian, existe el riesgo de que el producto 
+       final no cumpla con las expectativas.
+
+<div style="page-break-after: always;"></div>
+
+**Proyecto Continuo:**
+
+Este enfoque se alinea más con metodologías ágiles, donde se desarrolla un Producto Mínimo Viable (MVP) en una primera 
+fase y luego se realizan iteraciones continuas para agregar mejoras y adaptarse a los cambios en los requisitos. 
+El presupuesto puede ser más flexible y adaptarse a medida que evoluciona el proyecto.
+
+    Ventajas del Proyecto Continuo:
+
+    1. Adaptabilidad: Puede adaptarse a cambios en los requisitos y prioridades durante el desarrollo.
+
+    2. Mejora Continua: Permite incorporar retroalimentación del usuario y realizar mejoras continuas.
+    
+    3. Mayor Flexibilidad: Se ajusta bien a proyectos donde los requisitos son dinámicos y pueden cambiar con el tiempo.
+    
+    4. Mayor Satisfacción del Cliente: La capacidad de realizar ajustes según la retroalimentación del cliente aumenta 
+       la satisfacción del cliente.
+    
+    Desventajas del Proyecto Continuo:
+    
+    1. Mayor Complejidad en la Planificación: La planificación a largo plazo puede ser más compleja debido a la 
+    incertidumbre en los requisitos futuros.
+    
+    2. Posible Desviación del Presupuesto: La flexibilidad en los requisitos puede llevar a desviaciones en el 
+       presupuesto inicial.
+    
+    3. Menos Previsibilidad en Plazos: La adaptabilidad puede afectar la previsibilidad en cuanto a los plazos de 
+       entrega.
+    
+    En resumen, la elección entre un proyecto cerrado y uno continuo dependerá de la naturaleza de los requisitos, la 
+    flexibilidad necesaria y la tolerancia al riesgo del cliente. Ambos enfoques tienen sus ventajas y desventajas, y la 
+    decisión debe basarse en las características específicas del proyecto y las necesidades del cliente.
 
 <div style="page-break-after: always;"></div>
 
@@ -938,7 +1011,8 @@ y disponibilidad de los datos.
 - La capa de caché opcional podría implementarse más adelante para mejorar la velocidad de acceso a datos frecuentemente
 utilizados, optimizando así el rendimiento del sistema.
 - La comunicación entre el frontend y el backend, así como entre el backend y la capa de persistencia (y la posible 
-capa de caché), se llevará a cabo a través de interfaces bien definidas y protocolos seguros.
+capa de caché), se llevará a cabo a través de interfaces bien definidas y protocolos seguros, usando herramientas como
+JWT para securizar las autenticaciones de peticiones a nuestro backend.
 
 <div style="page-break-after: always;"></div>
 
@@ -1018,7 +1092,7 @@ directamente desde GitHub.
 - Render: Una plataforma de alojamiento que soporta el despliegue de aplicaciones web, proporcionando servicios para 
 frontend, backend y bases de datos.
 
-#### 4.3.4.9. Trazas, metricas y logs:
+#### 4.3.4.9. Trazas, métricas y logs:
 - OpenTelemetry: Una plataforma de observabilidad de código abierto que permite la generación de trazas, métricas y
 logs para el análisis y la monitorización de aplicaciones en contexto backend y frontend.
 
@@ -1045,6 +1119,8 @@ de Gitflow para gestionar las ramas y las versiones del código fuente.
       En el se despliega la rama **main**.
 Todos los entornos se desplegarán en Render, una plataforma de alojamiento que soporta el despliegue de aplicaciones, 
 servicios y bases de datos.
+
+<div style="page-break-after: always;"></div>
 
 ### 4.4.2. Ciclo de vida del desarrollo
 #### 4.4.2.1. Metodología de trabajo: Gitflow
@@ -1132,8 +1208,6 @@ procesos de verificación que en la rama `develop`. Una vez que se compruebe que
 con la rama `main`, la cual vovlerá a pasar  por los mismos procesos de verificación y se desplegará también de forma
 automática en el entorno de producción.
 
-<div style="page-break-after: always;"></div>
-
 Ejemplo de fichero de configuración de GitHub Actions para la rama `develop`:
 
 ```yaml
@@ -1166,7 +1240,7 @@ runs-on: ubuntu-latest
       - name: Run Tests
         run: npm test
 ```
-
+<div style="page-break-after: always;"></div>
 
 ### 4.4.2.3. Despliegue continuo: Plataforma Render
 
@@ -1176,6 +1250,8 @@ de los cambios implementados y facilita la colaboración en un entorno controlad
 
 Este mimos proceso se aplicará a las ramas `release` y `main`, desplegando la aplicación en los entornos de
 preproducción y producción respectivamente.
+
+![img_9.png](img_9.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -1218,6 +1294,7 @@ cambio de código. GitHub Actions se utilizará para facilitar la integración c
 Este enfoque garantizará la calidad del software y permitirá una identificación temprana de posibles problemas, 
 facilitando la corrección oportuna.
 
+<div style="page-break-after: always;"></div>
 
 ### 4.4.4. Entrega Inicial: MVP (Minimum Viable Product)
 
@@ -1341,6 +1418,9 @@ referencia completo para el equipo de desarrollo y los usuarios.
 ## JavaScript
 - [Mozilla Developer Network (MDN) - JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide).
 
+## JWT (Json Web Token)
+- [JWT](https://jwt.io).
+
 <div style="page-break-after: always;"></div>
 
 # 6. Anexos
@@ -1349,3 +1429,7 @@ referencia completo para el equipo de desarrollo y los usuarios.
 - [Backend](https://github.com/Falagan/ar-service-api)
 ## 6.2. Anexo 2: Entorno productivo
 - [Producción](https://ar-app-web.onrender.com)
+
+![img_8.png](img_8.png)
+
+
